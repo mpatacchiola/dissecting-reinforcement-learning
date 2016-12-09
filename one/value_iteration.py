@@ -16,12 +16,20 @@ import matplotlib.patches as mpatches
 import matplotlib.lines as mlines
 
 def return_state_utility(v, T, u, reward, gamma):
+    """Return the utility of a single state.
+
+    This is an implementation of the Bellman equation.
+    """
     action_array = np.zeros(4)
     for action in range(0, 4):
         action_array[action] = np.sum(np.multiply(u, np.dot(v, T[:,:,action])))
     return reward + gamma * np.max(action_array)
 
 def generate_graph(utility_list):
+    """Given a list of utility arrays (one for each iteration)
+       it generates a matplotlib graph and save it as 'output.jpg'
+
+    """
     name_list = ('(1,3)', '(2,3)', '(3,3)', '+1', '(1,2)', '#', '(3,2)', '-1', '(1,1)', '(2,1)', '(3,1)', '(4,1)')
     color_list = ('cyan', 'teal', 'blue', 'green', 'magenta', 'black', 'yellow', 'red', 'brown', 'pink', 'gray', 'sienna')
     counter = 0
@@ -29,7 +37,7 @@ def generate_graph(utility_list):
     for state in range(12):
         state_list = list()
         for utility_array in utility_list:
-             state_list.append(utility_array[0,state])
+             state_list.append(utility_array[state])
         plt.plot(index_vector, state_list, color=color_list[state], label=name_list[state])  
         counter += 1
     #Adjust the legend and the axis
@@ -41,7 +49,6 @@ def generate_graph(utility_list):
     plt.savefig("./output.jpg", dpi=500)
 
 def main():
-
     #Change as you want
     tot_states = 12
     gamma = 0.999 #Discount factor
@@ -60,12 +67,12 @@ def main():
                   -0.04, -0.04, -0.04, -0.04])    
 
     #Utility vectors
-    u = np.array([[0.0, 0.0, 0.0,  0.0,
+    u = np.array([0.0, 0.0, 0.0,  0.0,
                    0.0, 0.0, 0.0,  0.0,
-                   0.0, 0.0, 0.0,  0.0]])
-    u1 = np.array([[0.0, 0.0, 0.0,  0.0,
+                   0.0, 0.0, 0.0,  0.0])
+    u1 = np.array([0.0, 0.0, 0.0,  0.0,
                     0.0, 0.0, 0.0,  0.0,
-                    0.0, 0.0, 0.0,  0.0]])
+                    0.0, 0.0, 0.0,  0.0])
 
     while True:
         delta = 0
@@ -76,9 +83,9 @@ def main():
             reward = r[s]
             v = np.zeros((1,tot_states))
             v[0,s] = 1.0
-            u1[0,s] = return_state_utility(v, T, u, reward, gamma)
-            delta = max(delta, np.abs(u1[0,s] - u[0,s]))
-         
+            u1[s] = return_state_utility(v, T, u, reward, gamma)
+            delta = max(delta, np.abs(u1[s] - u[s]))
+        #Stopping criteria
         if delta < epsilon * (1 - gamma) / gamma:
                 print("=================== FINAL RESULT ==================")
                 print("Iterations: " + str(iteration))
@@ -86,9 +93,9 @@ def main():
                 print("Gamma: " + str(gamma))
                 print("Epsilon: " + str(epsilon))
                 print("===================================================")
-                print(u[:,0:4])
-                print(u[:,4:8])
-                print(u[:,8:12])
+                print(u[0:4])
+                print(u[4:8])
+                print(u[8:12])
                 print("===================================================")
                 break
 

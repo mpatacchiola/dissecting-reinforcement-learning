@@ -24,7 +24,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.92296509"
-     inkscape:cx="467.45172"
+     inkscape:cx="476.35173"
      inkscape:cy="-2920.2851"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -3919,7 +3919,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -15101,7 +15101,7 @@
          id="flowPara15336-56-2-8-0-8">10</flowPara></flowRoot>    <rect
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
-       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_simple_world_bellman_example_2.png"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_utilities_graph.png"
        y="3723.6663"
        x="224.1109"
        height="451.7677"
@@ -23316,6 +23316,9 @@ KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
 AKKKKACiiigAooooAKKKKACiiigD/9k=
 "
        height="418.21677"
-       width="557.62238" />
+       width="557.62238"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_utilities_graph.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
   </g>
 </svg>
