@@ -11,12 +11,34 @@
 #Implementation of the Value Iteration algorithm
 
 import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import matplotlib.lines as mlines
 
 def return_state_utility(v, T, u, reward, gamma):
     action_array = np.zeros(4)
     for action in range(0, 4):
         action_array[action] = np.sum(np.multiply(u, np.dot(v, T[:,:,action])))
     return reward + gamma * np.max(action_array)
+
+def generate_graph(utility_list):
+    name_list = ('(1,3)', '(2,3)', '(3,3)', '+1', '(1,2)', '#', '(3,2)', '-1', '(1,1)', '(2,1)', '(3,1)', '(4,1)')
+    color_list = ('cyan', 'teal', 'blue', 'green', 'magenta', 'black', 'yellow', 'red', 'brown', 'pink', 'gray', 'sienna')
+    counter = 0
+    index_vector = np.arange(len(utility_list))
+    for state in range(12):
+        state_list = list()
+        for utility_array in utility_list:
+             state_list.append(utility_array[0,state])
+        plt.plot(index_vector, state_list, color=color_list[state], label=name_list[state])  
+        counter += 1
+    #Adjust the legend and the axis
+    plt.legend(loc='upper center', bbox_to_anchor=(0.5, 0.4), ncol=3, fancybox=True, shadow=True)
+    plt.ylim((-1.1, +1.1))
+    plt.xlim((1, len(utility_list)-1))
+    plt.ylabel('Utility', fontsize=15)
+    plt.xlabel('Iterations', fontsize=15)
+    plt.savefig("./output.jpg", dpi=500)
 
 def main():
 
@@ -25,6 +47,9 @@ def main():
     gamma = 0.999 #Discount factor
     iteration = 0 #Iteration counter
     epsilon = 0.01 #Stopping criteria small value
+
+    #List containing the data for each iteation
+    graph_list = list()
 
     #Transition matrix loaded from file (It is too big to write here)
     T = np.load("T.npy")
@@ -46,6 +71,7 @@ def main():
         delta = 0
         u = u1.copy()
         iteration += 1
+        graph_list.append(u)
         for s in range(tot_states):
             reward = r[s]
             v = np.zeros((1,tot_states))
@@ -65,6 +91,8 @@ def main():
                 print(u[:,8:12])
                 print("===================================================")
                 break
+
+    generate_graph(graph_list)
 
 if __name__ == "__main__":
     main()

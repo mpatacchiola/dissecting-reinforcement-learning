@@ -9,7 +9,7 @@ The code is organised into different folders. The name of the folders follows th
 Post Content
 ------------
 
-1. Part one. Markov chains. Markov Decision Process. Bellman Equation. Value and Policy iteration algorithms. [code](./one)
+1. Part one. Markov chains. Markov Decision Process. Bellman Equation. Value and Policy iteration algorithms. [[code]](./one)
 
 License
 --------
