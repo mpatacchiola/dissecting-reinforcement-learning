@@ -4,12 +4,12 @@ What is this?
 
 This repository contains the code for a series of blog post called "dissecting reinforcement learning" which I published on my blog [mpatacchiola.io/blog](https://mpatacchiola.github.io/blog/).
 
-The code is organised into different folders. The name of the folders follows the post number.
+The source code is contained in [src](./src) with the name of the subfolders following the post number. In [pdf](./pdf) there are the A3 documents of each post for offline reading. In [images](./images) there are the raw svg file containing the images used in each post.
 
 Post Content
 ------------
 
-1. [Part one](https://mpatacchiola.github.io/blog/2016/12/09/dissecting-reinforcement-learning.html) Markov chains. Markov Decision Process. Bellman Equation. Value and Policy iteration algorithms. [[code]](./src/one)[[pdf]](./pdf)
+1. [[Part one]](https://mpatacchiola.github.io/blog/2016/12/09/dissecting-reinforcement-learning.html) Markov chains. Markov Decision Process. Bellman Equation. Value and Policy iteration algorithms. [[code]](./src/one) [[pdf]](./pdf)
 
 License
 --------
