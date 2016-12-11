@@ -9,13 +9,13 @@ The source code is contained in [src](./src) with the name of the subfolders fol
 Posts Content
 ------------
 
-1. [[Part one]](https://mpatacchiola.github.io/blog/2016/12/09/dissecting-reinforcement-learning.html) [[code]](./src/one) [[pdf]](./pdf) Markov chains. Markov Decision Process. Bellman Equation. Value and Policy iteration algorithms. 
+1. [[Part one]](https://mpatacchiola.github.io/blog/2016/12/09/dissecting-reinforcement-learning.html) [[code]](./src/one) [[pdf]](./pdf) - Markov chains. Markov Decision Process. Bellman Equation. Value and Policy iteration algorithms. 
 
 
 Resources
 ---------
 
-Software:
+**Software:**
 
 [[Google DeepMind Lab]](https://deepmind.com/blog/open-sourcing-deepmind-lab/) [[github]](https://github.com/deepmind/lab) - DeepMind Lab is a fully 3D game-like platform tailored for agent-based AI research.
 
@@ -27,6 +27,13 @@ Software:
 
 [[setosa blog]](http://setosa.io/blog/2014/07/26/markov-chains/index.html) - A useful visual explanation of Markov chains.
 
+**Books:**
+
+**Artificial intelligence: a modern approach. (chapters 17 and 21)** Russell, S. J., Norvig, P., Canny, J. F., Malik, J. M., & Edwards, D. D. (2003). Upper Saddle River: Prentice hall.
+
+**Reinforcement learning: An introduction.** Sutton, R. S., & Barto, A. G. (1998). Cambridge: MIT press.
+
+[pdf](https://webdocs.cs.ualberta.ca/~sutton/book/bookdraft2016sep.pdf) - **Reinforcement learning: An introduction (second edition).** Sutton, R. S., & Barto, A. G. (in progress).
 
 License
 --------
