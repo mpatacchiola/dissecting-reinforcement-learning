@@ -1,6 +1,8 @@
 import numpy as np
 
 #Trowing a dice for N times and evaluating the expectation
+dice = np.random.randint(low=1, high=7, size=3)
+print("Expectation (3 times): " + str(np.mean(dice)))
 dice = np.random.randint(low=1, high=7, size=10)
 print("Expectation (10 times): " + str(np.mean(dice)))
 dice = np.random.randint(low=1, high=7, size=100)

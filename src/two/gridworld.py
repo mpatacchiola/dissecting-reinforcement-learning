@@ -60,6 +60,8 @@ class GridWorld:
         '''Set the reward matrix.
 
         '''
+        if(reward_matrix.shape != self.reward_matrix.shape):
+            raise ValueError('The shape of the matrix does not match with the shape of the world.')
         self.reward_matrix = reward_matrix
 
     def setStateMatrix(self, state_matrix):
@@ -76,6 +78,8 @@ class GridWorld:
          [0, -1,  0, +1]
          [0,  0,  0,  0]]
         '''
+        if(state_matrix.shape != self.state_matrix.shape):
+            raise ValueError('The shape of the matrix does not match with the shape of the world.')
         self.state_matrix = state_matrix
 
     def setPosition(self, index_row=None, index_col=None):
@@ -106,12 +110,20 @@ class GridWorld:
             graph += row_string 
         print graph            
 
-    def reset(self):
+    def reset(self, exploring_starts=False):
         ''' Set the position of the robot in the bottom left corner.
 
         It returns the first observation
         '''
-        self.position = [self.world_row-1, 0]
+        if exploring_starts:
+            while(True):
+                row = np.random.randint(0, self.world_row)
+                col = np.random.randint(0, self.world_col)
+                if(self.state_matrix[row, col] == 0): break
+            self.position = [row, col]
+        else:
+            self.position = [self.world_row-1, 0]
+        #reward = self.reward_matrix[self.position[0], self.position[1]]
         return self.position
 
     def step(self, action):
@@ -129,7 +141,7 @@ class GridWorld:
 
         #Based on the current action and the probability derived
         #from the trasition model it chooses a new actio to perform
-        action = np.random.choice(4, 1, p=self.transition_matrix[action,:])
+        action = np.random.choice(4, 1, p=self.transition_matrix[int(action),:])
         #action = self.transition_model(action)
 
         #Generating a new position based on the current position and action
@@ -137,6 +149,7 @@ class GridWorld:
         elif(action == 1): new_position = [self.position[0], self.position[1]+1] #RIGHT
         elif(action == 2): new_position = [self.position[0]+1, self.position[1]] #DOWN
         elif(action == 3): new_position = [self.position[0], self.position[1]-1] #LEFT
+        else: raise ValueError('The action is not included in the action space.')
 
         #Check if the new position is a valid position
         #print(self.state_matrix)

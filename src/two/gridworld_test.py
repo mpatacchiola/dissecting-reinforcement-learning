@@ -29,16 +29,15 @@ reward_matrix[0, 3] = 1
 reward_matrix[1, 3] = -1
 
 #Define the transition matrix
-transition_matrix = np.array([[0.90, 0.05, 0.0, 0.05],
-                              [0.05, 0.90, 0.05, 0.0],
-                              [0.0, 0.05, 0.90, 0.05],
-                              [0.05, 0.0, 0.05, 0.90]])
+transition_matrix = np.array([[0.8, 0.1, 0.0, 0.1],
+                              [0.1, 0.8, 0.1, 0.0],
+                              [0.0, 0.1, 0.8, 0.1],
+                              [0.1, 0.0, 0.1, 0.8]])
 
 #Define the policy matrix
-policy_matrix = np.array([[1, 1, 1, 0],
-                          [0, 1, 0, 0],
-                          [0, 0, 0, 3],
-                          [0, 3, 3, 3]])
+policy_matrix = np.array([[1,  1,  1,  0],
+                          [0, -1,  0,  0],
+                          [0,  3,  3,  3]])
 
 
 env.setStateMatrix(state_matrix)
@@ -58,5 +57,4 @@ for _ in range(1000):
     print("DONE: " + str(done))
     env.render()
     if done: break
-
 
