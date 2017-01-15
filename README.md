@@ -11,6 +11,7 @@ Posts Content
 
 1. [[Part one]](https://mpatacchiola.github.io/blog/2016/12/09/dissecting-reinforcement-learning.html) [[code]](./src/one) [[pdf]](./pdf) - Markov chains. Markov Decision Process. Bellman Equation. Value and Policy iteration algorithms. 
 
+2. [[Part two]](https://mpatacchiola.github.io/blog/2017/01/15/dissecting-reinforcement-learning-2.html) [[code]](./src/two) [[pdf]](./pdf) - Monte Carlo methods for prediction and control. Generalised Policy Iteration. Action Values and Q-function.
 
 Resources
 ---------
