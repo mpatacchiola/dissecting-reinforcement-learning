@@ -2,6 +2,8 @@
 What is this?
 -------------
 
+<div style="text-align:center"><img src ="./images/local/reinforcement_learning_cleaning_robot_header.png" /></div>
+
 This repository contains the code and pdf of a series of blog post called "dissecting reinforcement learning" which I published on my blog [mpatacchiola.io/blog](https://mpatacchiola.github.io/blog/). Moreover there are links to resources that can be useful for a reinforcement learning practitioner. **If you have some good references to add please send me a pull request and I will integrate them in the main file**.
 
 The source code is contained in [src](./src) with the name of the subfolders following the post number. In [pdf](./pdf) there are the A3 documents of each post for offline reading. In [images](./images) there are the raw svg file containing the images used in each post.
