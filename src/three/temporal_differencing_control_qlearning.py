@@ -16,7 +16,7 @@ import numpy as np
 from gridworld import GridWorld
 
 
-def update_state_action(state_action_matrix, observation, new_observation, 
+def update_state_action(state_action_matrix, visit_counter_matrix, observation, new_observation, 
                         action, reward, alpha, gamma):
     '''Return the updated utility matrix
 
@@ -35,10 +35,16 @@ def update_state_action(state_action_matrix, observation, new_observation,
     q = state_action_matrix[action ,col]
     col_t1 = new_observation[1] + (new_observation[0]*4)
     q_t1 = np.max(state_action_matrix[: ,col_t1])
+
+    alpha_counted = 1.0 / (1.0 + visit_counter_matrix[action, col])
     #Applying the update rule
-    state_action_matrix[action ,col] += \
-        alpha * (reward + gamma * q_t1 - q)
+    state_action_matrix[action ,col] = state_action_matrix[action ,col] + alpha * (reward + gamma * q_t1 - q)
     return state_action_matrix
+
+def update_visit_counter(visit_counter_matrix, observation, action):
+    col = observation[1] + (observation[0]*4)
+    visit_counter_matrix[action ,col] += 1.0
+    return visit_counter_matrix
 
 def update_policy(policy_matrix, state_action_matrix, observation):
     '''Return the updated policy matrix (q-learning)
@@ -131,10 +137,15 @@ def main():
     print(policy_matrix)
     print_policy(policy_matrix)
 
-    #Sub-optimal exploration policy
-    exploratory_policy_matrix = np.array([[2,      3, 2, -1],
-                                          [2, np.NaN, 1, -1],
-                                          [1,      1, 1,  0]])
+    #Adversarial exploration policy
+    #exploratory_policy_matrix = np.array([[2,      3, 2, -1],
+                                          #[2, np.NaN, 1, -1],
+                                          #[1,      1, 1,  0]])
+
+    exploratory_policy_matrix = np.array([[1,      1, 1, -1],
+                                          [0, np.NaN, 0, -1],
+                                          [0,      1, 0,  3]])
+
     print("Exploratory Policy Matrix:")
     print(exploratory_policy_matrix)
     print_policy(exploratory_policy_matrix)
@@ -143,33 +154,35 @@ def main():
     env.setRewardMatrix(reward_matrix)
     env.setTransitionMatrix(transition_matrix)
 
-    #utility_matrix = np.zeros((3,4))
     state_action_matrix = np.zeros((4,12))
+    visit_counter_matrix = np.zeros((4,12))
     gamma = 0.999
-    alpha = 0.1 #constant step size
+    alpha = 0.001 #constant step size
     tot_epoch = 5000000
     print_epoch = 1000
 
     for epoch in range(tot_epoch):
         #Reset and return the first observation
-        observation = env.reset(exploring_starts=False)
+        observation = env.reset(exploring_starts=True)
         epsilon = return_decayed_value(0.1, epoch, decay_step=50000)
-        #is_starting = True
+        is_starting = True
         for step in range(1000):
             #Take the action from the action matrix
             #action = policy_matrix[observation[0], observation[1]]
             #Take the action using epsilon-greedy
-            action = return_epsilon_greedy_action(exploratory_policy_matrix, observation, epsilon=0.1)
-            #if(is_starting): 
-                #action = np.random.randint(0, 4)
-                #is_starting = False 
+            action = return_epsilon_greedy_action(exploratory_policy_matrix, observation, epsilon=0.001)
+            if(is_starting): 
+                action = np.random.randint(0, 4)
+                is_starting = False  
             #Move one step in the environment and get obs and reward
             new_observation, reward, done = env.step(action)
             #Updating the state-action matrix
-            state_action_matrix = update_state_action(state_action_matrix, observation, new_observation, 
+            state_action_matrix = update_state_action(state_action_matrix, visit_counter_matrix, observation, new_observation, 
                                                       action, reward, alpha, gamma)
             #Updating the policy
             policy_matrix = update_policy(policy_matrix, state_action_matrix, observation)
+            #Increment the visit counter
+            visit_counter_matrix = update_visit_counter(visit_counter_matrix, observation, action)
             observation = new_observation
             if done: break
 
