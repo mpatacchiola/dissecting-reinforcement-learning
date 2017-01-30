@@ -35,13 +35,25 @@ def update_state_action(state_action_matrix, visit_counter_matrix, observation, 
     q = state_action_matrix[action ,col]
     col_t1 = new_observation[1] + (new_observation[0]*4)
     q_t1 = np.max(state_action_matrix[: ,col_t1])
-
+    #Calculate alpha based on how many time it
+    #has been visited
     alpha_counted = 1.0 / (1.0 + visit_counter_matrix[action, col])
     #Applying the update rule
+    #Here you can change "alpha" with "alpha_counted" if you want
+    #to take into account how many times that particular state-action
+    #pair has been visited until now.
     state_action_matrix[action ,col] = state_action_matrix[action ,col] + alpha * (reward + gamma * q_t1 - q)
     return state_action_matrix
 
 def update_visit_counter(visit_counter_matrix, observation, action):
+    '''Update the visit counter
+   
+    Counting how many times a state-action pair has been 
+    visited. This information can be used during the update.
+    @param visit_counter_matrix a matrix initialised with zeros
+    @param observation the state observed
+    @param action the action taken
+    '''
     col = observation[1] + (observation[0]*4)
     visit_counter_matrix[action ,col] += 1.0
     return visit_counter_matrix

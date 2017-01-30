@@ -8,6 +8,11 @@ This repository contains the code and pdf of a series of blog post called "disse
 
 The source code is contained in [src](./src) with the name of the subfolders following the post number. In [pdf](./pdf) there are the A3 documents of each post for offline reading. In [images](./images) there are the raw svg file containing the images used in each post.
 
+Installation
+------------
+
+The source code does not require any particular installation procedure. The only requirement is Numpy which is already present in **Linux** and can be easily installed in **Windows** and **OS X** throug [Anaconda](https://conda.io/docs/install/full.html).
+
 Posts Content
 ------------
 
