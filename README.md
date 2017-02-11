@@ -16,11 +16,13 @@ The source code does not require any particular installation procedure. The only
 Posts Content
 ------------
 
-1. [[Part one]](https://mpatacchiola.github.io/blog/2016/12/09/dissecting-reinforcement-learning.html) [[code]](./src/one) [[pdf]](./pdf) - Markov chains. Markov Decision Process. Bellman Equation. Value and Policy iteration algorithms. 
+1. [[Part one]](https://mpatacchiola.github.io/blog/2016/12/09/dissecting-reinforcement-learning.html) [[code]](./src/1) [[pdf]](./pdf) - Markov chains. Markov Decision Process. Bellman Equation. Value and Policy iteration algorithms. 
 
-2. [[Part two]](https://mpatacchiola.github.io/blog/2017/01/15/dissecting-reinforcement-learning-2.html) [[code]](./src/two) [[pdf]](./pdf) - Monte Carlo methods for prediction and control. Generalised Policy Iteration. Action Values and Q-function.
+2. [[Part two]](https://mpatacchiola.github.io/blog/2017/01/15/dissecting-reinforcement-learning-2.html) [[code]](./src/2) [[pdf]](./pdf) - Monte Carlo methods for prediction and control. Generalised Policy Iteration. Action Values and Q-function.
 
-2. [[Part three]](https://mpatacchiola.github.io/blog/2017/01/29/dissecting-reinforcement-learning-3.html) [[code]](./src/three) [[pdf]](./pdf) - Temporal Differencing Learning, Animal Learning, TD(0), TD(λ) and Eligibility Traces, SARSA, Q-Learning.
+3. [[Part three]](https://mpatacchiola.github.io/blog/2017/01/29/dissecting-reinforcement-learning-3.html) [[code]](./src/3) [[pdf]](./pdf) - Temporal Differencing Learning, Animal Learning, TD(0), TD(λ) and Eligibility Traces, SARSA, Q-Learning.
+
+4. [[Part four]](https://mpatacchiola.github.io/blog/2017/02/11/dissecting-reinforcement-learning-4.html) [[code]](./src/4) [[pdf]](./pdf) - Neurobiology behind Actor-Critic methods, computational Actor-Critic methods, Actor-only and Critic-only methods.
 
 Resources
 ---------
@@ -37,13 +39,19 @@ Resources
 
 [[setosa blog]](http://setosa.io/blog/2014/07/26/markov-chains/index.html) - A useful visual explanation of Markov chains.
 
-**Books:**
+**Books and Articles:**
 
 **Artificial intelligence: a modern approach. (chapters 17 and 21)** Russell, S. J., Norvig, P., Canny, J. F., Malik, J. M., & Edwards, D. D. (2003). Upper Saddle River: Prentice hall. [[web]](http://aima.cs.berkeley.edu/) [[github]](https://github.com/aimacode)
+
+**Christopher Watkins** doctoral dissertation, which introduced the **Q-learning** for the first time [[pdf]](https://www.researchgate.net/profile/Christopher_Watkins2/publication/33784417_Learning_From_Delayed_Rewards/links/53fe12e10cf21edafd142e03/Learning-From-Delayed-Rewards.pdf)
+
+**Machine Learning (chapter 13)** Mitchell T. (1997) [[web]](http://www.cs.cmu.edu/~tom/mlbook.html)
 
 **Reinforcement learning: An introduction.** Sutton, R. S., & Barto, A. G. (1998). Cambridge: MIT press. [[html]](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
 
 **Reinforcement learning: An introduction (second edition).** Sutton, R. S., & Barto, A. G. (in progress). [[pdf]](https://webdocs.cs.ualberta.ca/~sutton/book/bookdraft2016sep.pdf)
+
+**Reinforcement Learning in a Nutshell.** Heidrich-Meisner, V., Lauer, M., Igel, C., & Riedmiller, M. A. (2007) [[pdf]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.9557&rep=rep1&type=pdf)
 
 License
 --------
