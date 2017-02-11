@@ -11,7 +11,7 @@ The source code is contained in [src](./src) with the name of the subfolders fol
 Installation
 ------------
 
-The source code does not require any particular installation procedure. The only requirement is Numpy which is already present in **Linux** and can be easily installed in **Windows** and **OS X** throug [Anaconda](https://conda.io/docs/install/full.html).
+The source code does not require any particular installation procedure. The only requirement is *Numpy* which is already present in **Linux** and can be easily installed in **Windows** and **OS X** through [Anaconda](https://conda.io/docs/install/full.html).
 
 Posts Content
 ------------

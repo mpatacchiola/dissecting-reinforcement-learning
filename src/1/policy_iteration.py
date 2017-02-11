@@ -1,3 +1,28 @@
+#!/usr/bin/env python
+
+#MIT License
+#Copyright (c) 2017 Massimiliano Patacchiola
+#
+#Permission is hereby granted, free of charge, to any person obtaining a copy
+#of this software and associated documentation files (the "Software"), to deal
+#in the Software without restriction, including without limitation the rights
+#to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+#copies of the Software, and to permit persons to whom the Software is
+#furnished to do so, subject to the following conditions:
+#
+#The above copyright notice and this permission notice shall be included in all
+#copies or substantial portions of the Software.
+#
+#THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+#IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+#FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+#AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+#LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+#OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+#SOFTWARE.
+
+#Example of the policy iteration algorithm.
+
 import numpy as np
 
 def return_policy_evaluation(p, u, r, T, gamma):
@@ -25,6 +50,16 @@ def return_expected_action(p, u, T, v):
     return np.argmax(actions_array)
 
 def print_policy(p, shape):
+    '''Print the policy on the terminal
+
+    Using the symbol:
+    * Terminal state
+    ^ Up
+    > Right
+    v Down
+    < Left
+    # Obstacle
+    '''
     counter = 0
     policy_string = ""
     for row in range(shape[0]):
@@ -41,6 +76,9 @@ def print_policy(p, shape):
 
 
 def main_iterative():
+    '''Finding the solution using the iterative approach
+
+    '''
     gamma = 0.999
     iteration = 0
     T = np.load("T.npy")
@@ -94,6 +132,9 @@ def main_iterative():
 
 
 def main_linalg():
+    '''Finding the solution using a linear algebra approach
+
+    '''
     gamma = 0.999
     iteration = 0
     T = np.load("T.npy")

@@ -22,14 +22,21 @@
 #SOFTWARE.
 
 #In this example I will use the class gridworld to generate a 3x4 world
-#in which the cleaning robot will move. Using the TD(0) algorithm I
-#will estimate the utility values of each state.
+#in which the cleaning robot will move. Using the Actor-Critic algorithm I
+#will estimate the utility values of each state and the state-action matrix.
 
 import numpy as np
 from gridworld import GridWorld
 
+def softmax(x):
+    '''Compute softmax values of array x.
 
-def update_utility(utility_matrix, observation, new_observation, 
+    @param x the input array
+    @return the softmax array
+    '''
+    return np.exp(x - np.max(x)) / np.sum(np.exp(x - np.max(x)))
+
+def update_critic(utility_matrix, observation, new_observation, 
                    reward, alpha, gamma):
     '''Return the updated utility matrix
 
@@ -40,12 +47,29 @@ def update_utility(utility_matrix, observation, new_observation,
     @param alpha the ste size (learning rate)
     @param gamma the discount factor
     @return the updated utility matrix
+    @return the estimation error delta
     '''
     u = utility_matrix[observation[0], observation[1]]
     u_t1 = utility_matrix[new_observation[0], new_observation[1]]
-    utility_matrix[observation[0], observation[1]] += \
-        alpha * (reward + gamma * u_t1 - u)
-    return utility_matrix
+    delta = reward + gamma * u_t1 - u
+    utility_matrix[observation[0], observation[1]] += alpha * (delta)
+    return utility_matrix, delta
+
+def update_actor(state_action_matrix, observation, action, delta, beta_matrix=None):
+    '''Return the updated state-action matrix
+
+    @param state_action_matrix the matrix before the update
+    @param observation the state obsrved at t
+    @param action taken at time t
+    @param delta the estimation error returned by the critic
+    @param beta_matrix a visit counter for each state-action pair
+    @return the updated matrix
+    '''
+    col = observation[1] + (observation[0]*4)
+    if beta_matrix is None: beta = 1
+    else: beta = 1 / beta_matrix[action,col]
+    state_action_matrix[action, col] += beta * delta
+    return state_action_matrix 
 
 def main():
 
@@ -72,45 +96,57 @@ def main():
                                   [0.0, 0.1, 0.8, 0.1],
                                   [0.1, 0.0, 0.1, 0.8]])
 
-    #Define the policy matrix
-    #This is the optimal policy for world with reward=-0.04
-    policy_matrix = np.array([[1,      1,  1,  -1],
-                              [0, np.NaN,  0,  -1],
-                              [0,      3,  3,   3]])
-    print("Policy Matrix:")
-    print(policy_matrix)
+    state_action_matrix = np.random.random((4,12))
+    print("State-Action Matrix:")
+    print(state_action_matrix)
 
     env.setStateMatrix(state_matrix)
     env.setRewardMatrix(reward_matrix)
     env.setTransitionMatrix(transition_matrix)
 
     utility_matrix = np.zeros((3,4))
+    print("Utility Matrix:")
+    print(utility_matrix)
+
     gamma = 0.999
-    alpha = 0.1 #constant step size
+    alpha = 0.001 #constant step size
+    beta_matrix = np.zeros((4,12))
     tot_epoch = 300000
     print_epoch = 1000
 
     for epoch in range(tot_epoch):
         #Reset and return the first observation
-        observation = env.reset(exploring_starts=False)
+        observation = env.reset(exploring_starts=True)
         for step in range(1000):
-            #Take the action from the action matrix
-            action = policy_matrix[observation[0], observation[1]]
+            #Estimating the action through Softmax
+            col = observation[1] + (observation[0]*4)
+            action_array = state_action_matrix[:, col]
+            action_distribution = softmax(action_array)
+            action = np.random.choice(4, 1, p=action_distribution)
+            #To enable the beta parameter, enable the libe below
+            #and add beta_matrix=beta_matrix in the update actor function
+            #beta_matrix[action,col] += 1 #increment the counter
             #Move one step in the environment and get obs and reward
             new_observation, reward, done = env.step(action)
-            utility_matrix = update_utility(utility_matrix, observation, 
-                                            new_observation, reward, alpha, gamma)
+            utility_matrix, delta = update_critic(utility_matrix, observation, 
+                                                  new_observation, reward, alpha, gamma)
+            state_action_matrix = update_actor(state_action_matrix, observation, 
+                                               action, delta, beta_matrix=None)
             observation = new_observation
-            #print(utility_matrix)
             if done: break
 
         if(epoch % print_epoch == 0):
             print("")
             print("Utility matrix after " + str(epoch+1) + " iterations:") 
             print(utility_matrix)
+            print("")
+            print("State-Action matrix after " + str(epoch+1) + " iterations:") 
+            print(state_action_matrix)
     #Time to check the utility matrix obtained
     print("Utility matrix after " + str(tot_epoch) + " iterations:")
     print(utility_matrix)
+    print("State-Action matrix after  " + str(tot_epoch) + " iterations:")
+    print(state_action_matrix)
 
 
 
