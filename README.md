@@ -9,7 +9,7 @@ The source code is contained in [src](./src) with the name of the subfolders fol
 Installation
 ------------
 
-The source code does not require any particular installation procedure. The only requirement is *Numpy* which is already present in **Linux** and can be easily installed in **Windows** and **OS X** through [Anaconda](https://conda.io/docs/install/full.html).
+The source code does not require any particular installation procedure. The only requirement is *Numpy* which is already present in **Linux** and can be easily installed in **Windows** and **OS X** through [Anaconda](https://conda.io/docs/install/full.html). This means that the code can be used in Linux, Windows and OS X, and on embedded devices like Raspberry-Pi
 
 Posts Content
 ------------
@@ -35,7 +35,7 @@ Resources
 
 - [[RL toolkit]](http://incompleteideas.net/rlai.cs.ualberta.ca/RLAI/RLtoolkit/RLtoolkit1.0.html) - Collection of utilities and demos developed by the RLAI group which may be useful for anyone trying to learn, teach or use reinforcement learning (by Richard Sutton).
 
-- [[setosa blog]](http://setosa.io/blog/2014/07/26/markov-chains/index.html) - A useful visual explanation of Markov chains.
+- [[setosa blog]](http://setosa.io/blog/2014/07/26/markov-chains/index.html) - A useful visual explanation of Markov chains.  
 
 **Books and Articles:**
 
