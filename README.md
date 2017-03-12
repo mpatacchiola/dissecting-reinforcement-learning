@@ -9,7 +9,7 @@ The source code is contained in [src](./src) with the name of the subfolders fol
 Installation
 ------------
 
-The source code does not require any particular installation procedure. The code can be used in **Linux**, **Windows** and **OS X**, and embedded devices like **Raspberry Pi**, **BeagleBone**, and **Intel Edison**. The only requirement is *Numpy* which is already present in Linux and can be easily installed in Windows and OS X through [Anaconda](https://conda.io/docs/install/full.html) or [Miniconda](https://conda.io/miniconda.html). 
+The source code does not require any particular installation procedure. The code can be used in **Linux**, **Windows**, **OS X**, and embedded devices like **Raspberry Pi**, **BeagleBone**, and **Intel Edison**. The only requirement is *Numpy* which is already present in Linux and can be easily installed in Windows and OS X through [Anaconda](https://conda.io/docs/install/full.html) or [Miniconda](https://conda.io/miniconda.html). 
 
 Posts Content
 ------------
