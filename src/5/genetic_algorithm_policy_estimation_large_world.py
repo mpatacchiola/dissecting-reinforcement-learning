@@ -166,60 +166,62 @@ def return_crossed_population(population, new_size, elite=0):
         new_population[i] = np.copy(child)
     return new_population
 
-def return_chromosome_string(chromosome_array):
-    '''Returns a string where the actions of the chromosome
-    are replaced with symbols.
-
-    Attention, this function only works for the 4x3 gridworld
-    It must be readapted for larger worlds
-    @param chromosome_array
-    @return a string of symbols
-    '''
-    chromosome_string = ""
-    counter=0
-    for gene in chromosome_array:
-        if(counter==3): chromosome_string += ' * '
-        elif(counter==7): chromosome_string += ' * '
-        elif(counter==5): chromosome_string += ' # '
-        else:
-            if(gene == 0): chromosome_string += ' ^ '
-            elif(gene == 1): chromosome_string += ' > '
-            elif(gene == 2): chromosome_string += ' v '
-            elif(gene == 3): chromosome_string += ' < '
-        counter += 1
-    return chromosome_string
+#def return_chromosome_string(chromosome_array):
+#    '''Returns a string where the actions of the chromosome
+#    are replaced with symbols.
+#
+#    Attention, this function only works for the 4x3 gridworld
+#    It must be readapted for larger worlds
+#    @param chromosome_array
+#    @return a string of symbols
+#    '''
+#    chromosome_string = ""
+#    counter=0
+#    for gene in chromosome_array:
+#        if(counter==3): chromosome_string += ' * '
+#        elif(counter==7): chromosome_string += ' * '
+#        elif(counter==5): chromosome_string += ' # '
+#        else:
+#            if(gene == 0): chromosome_string += ' ^ '
+#            elif(gene == 1): chromosome_string += ' > '
+#            elif(gene == 2): chromosome_string += ' v '
+#            elif(gene == 3): chromosome_string += ' < '
+#        counter += 1
+#    return chromosome_string
 
 def main():
-    tot_generations = 100
+    tot_generations = 300
     tot_episodes = 100
-    tot_steps = 14 #a good choice is: (world_rows+world_cols)*2
+    tot_steps = 80 #a good value is (world_rows + world_cols) * 2
     population_size = 100
     elite_size = 10
     mutation_rate = 0.10
     gene_set = [0, 1, 2, 3]
-    chromosome_size = 12
-
-    #Define the world dimension
-    world_rows = 3
-    world_columns = 4
-    env = GridWorld(world_rows, world_columns)
+    chromosome_size = 300 #world_rows * world_cols
 
     mean_fitness_list = list()
     max_fitness_list = list()
     min_fitness_list = list()
 
+    #Define the world dimension
+    world_rows = 10
+    world_columns = 30
+    env = GridWorld(world_rows,world_columns)
+
     #Define the state matrix
-    state_matrix = np.zeros((3,4))
-    state_matrix[0, 3] = 1
-    state_matrix[1, 3] = 1
+    state_matrix = np.zeros((10,30))
+    state_matrix[0, 29] = 1
+    state_matrix[1, 29] = 1
     state_matrix[1, 1] = -1
+    state_matrix[5, 5] = -1
+    state_matrix[3, 7] = -1
     print("State Matrix:")
     print(state_matrix)
 
     #Define the reward matrix
-    reward_matrix = np.full((3,4), -0.04)
-    reward_matrix[0, 3] = 1
-    reward_matrix[1, 3] = -1
+    reward_matrix = np.full((10,30), -0.04)
+    reward_matrix[0, 29] = 1
+    reward_matrix[1, 29] = -1
     print("Reward Matrix:")
     print(reward_matrix)
 
@@ -268,25 +270,22 @@ def main():
               + " at index " + str(np.argmax(fitness_array)))
         print("Fitness Min: " + str(np.amin(fitness_array))
               + " at index " + str(np.argmin(fitness_array)))
-        print("Optimal Policy:")
-        print(" >  >  >  *  ^  #  ^  *  ^  <  <  <")
         for i in range(int(fitness_array.shape[0]/10)):
-            print("Fitness " + str(i) + " ..... " + str(fitness_array[i]))
-            print(return_chromosome_string(population_matrix[i,:]))        
+            print("Fitness " + str(i) + " ..... " + str(fitness_array[i]))    
         print("")
 
         #Uncomment the following line to enable roulette wheel selection
-        population_matrix, fitness_array = \
-            return_roulette_selected_population(population_matrix,                                                  
-                                                fitness_array,
-                                                population_size)
+        #population_matrix, fitness_array = \
+            #return_roulette_selected_population(population_matrix,                                                  
+                                                #fitness_array,
+                                                #population_size)
         population_matrix, fitness_array = \
             return_best_worst_population(population_matrix, fitness_array)
-        #Comment the following line if you enable the roulette wheel
-        #population_matrix, fitness_array = \
-            #return_truncated_population(population_matrix, 
-                                        #fitness_array, 
-                                        #new_size=int(population_size/2))
+        #Comment the following line if you enable the truncated selection
+        population_matrix, fitness_array = \
+            return_truncated_population(population_matrix, 
+                                        fitness_array, 
+                                        new_size=int(population_size/2))
         population_matrix = return_crossed_population(population_matrix, 
                                                       population_size, 
                                                       elite=elite_size)
