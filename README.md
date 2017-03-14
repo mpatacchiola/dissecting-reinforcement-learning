@@ -1,6 +1,6 @@
 
 
-<div style="text-align:center"><img src ="./images/local/reinforcement_learning_robot_header.png" /></div>
+<div style="text-align:center"><img src ="./images/local/header.png" /></div>
 
 This repository contains the code and pdf of a series of blog post called "dissecting reinforcement learning" which I published on my blog [mpatacchiola.io/blog](https://mpatacchiola.github.io/blog/). Moreover there are links to resources that can be useful for a reinforcement learning practitioner. **If you have some good references to add please send me a pull request and I will integrate them in the main file**.
 
@@ -58,7 +58,7 @@ Resources
 License
 --------
 The MIT License (MIT)
-Copyright (c) 2016 Massimiliano Patacchiola
+Copyright (c) 2017 Massimiliano Patacchiola
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY 
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
