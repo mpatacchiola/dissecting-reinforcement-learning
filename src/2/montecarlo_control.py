@@ -125,7 +125,7 @@ def main():
         #Starting a new episode
         episode_list = list()
         #Reset and return the first observation and reward
-        observation, _ = env.reset(exploring_starts=True)
+        observation = env.reset(exploring_starts=True)
         #action = np.random.choice(4, 1)
         #action = policy_matrix[observation[0], observation[1]]
         #episode_list.append((observation, action, reward))
