@@ -42,7 +42,19 @@ def return_policy_evaluation_linalg(p, r, T, gamma):
             u[s] = np.linalg.solve(np.identity(12) - gamma*T[:,:,action], r)[s]
     return u
 
-def return_expected_action(p, u, T, v):
+def return_expected_action(u, T, v):
+    """Return the expected action.
+
+    It returns an action based on the
+    expected utility of doing a in state s, 
+    according to T and u. This action is
+    the one that maximize the expected
+    utility.
+    @param u utility vector
+    @param T transition matrix
+    @param v starting vector
+    @return expected action (int)
+    """
     actions_array = np.zeros(4)
     for action in range(4):
          #Expected utility of doing a in state s, according to T and u.
@@ -50,7 +62,7 @@ def return_expected_action(p, u, T, v):
     return np.argmax(actions_array)
 
 def print_policy(p, shape):
-    '''Print the policy on the terminal
+    """Print the policy on the terminal
 
     Using the symbol:
     * Terminal state
@@ -59,7 +71,7 @@ def print_policy(p, shape):
     v Down
     < Left
     # Obstacle
-    '''
+    """
     counter = 0
     policy_string = ""
     for row in range(shape[0]):
@@ -76,9 +88,9 @@ def print_policy(p, shape):
 
 
 def main_iterative():
-    '''Finding the solution using the iterative approach
+    """Finding the solution using the iterative approach
 
-    '''
+    """
     gamma = 0.999
     iteration = 0
     T = np.load("T.npy")
@@ -113,7 +125,7 @@ def main_iterative():
                 v = np.zeros((1,12))
                 v[0,s] = 1.0
                 #2- Policy improvement
-                a = return_expected_action(p, u, T, v)         
+                a = return_expected_action(u, T, v)         
                 if a != p[s]: p[s] = a
         print_policy(p, shape=(3,4))
 
@@ -132,9 +144,9 @@ def main_iterative():
 
 
 def main_linalg():
-    '''Finding the solution using a linear algebra approach
+    """Finding the solution using a linear algebra approach
 
-    '''
+    """
     gamma = 0.999
     iteration = 0
     T = np.load("T.npy")
@@ -170,7 +182,7 @@ def main_linalg():
                 v = np.zeros((1,12))
                 v[0,s] = 1.0
                 #2- Policy improvement
-                a = return_expected_action(p, u, T, v)         
+                a = return_expected_action(u, T, v)         
                 if a != p[s]: 
                     p[s] = a
                     unchanged = False
