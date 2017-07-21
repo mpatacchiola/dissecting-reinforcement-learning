@@ -46,7 +46,7 @@ class InvertedPendulum:
         self.pole_mass = pole_mass
         self.cart_mass = cart_mass
         self.pole_lenght = pole_lenght
-        self.angle_t = 0.0 + np.random.normal(0, 0.1) # radians (vertical position)
+        self.angle_t = np.random.normal(0, 0.05) # radians (vertical position)
         self.angular_velocity_t = 0.0
         self.alpha = 1.0 / (self.pole_mass + self.cart_mass)
 
@@ -58,19 +58,14 @@ class InvertedPendulum:
         @return: it returns the initial position of the pendulum and the velocity
         """
         if exploring_starts:
-            initial_angle = np.random.uniform(0, 2*np.pi)
+            initial_angle = np.random.uniform(0, np.pi/2.0)
         #if initial_angle < -np.pi:
         #    initial_angle = -np.pi
         #elif initial_angle > np.pi:
         #    initial_angle = np.pi
         #else:
-        small_noise = np.random.normal(0, 0.1)  # adding small gaussian noise
-        if small_noise >=0: 
-            initial_angle = small_noise
-        else: 
-            initial_angle = (2*np.pi) + small_noise
+        self.angle_t = np.random.normal(0, 0.1) # radians (vertical position)
         self.angle_list = []  # clear the list
-        self.angle_t = initial_angle
         self.angular_velocity_t = 0.0
         self.angle_list.append(initial_angle)
         return [self.angle_t, self.angular_velocity_t]
