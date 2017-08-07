@@ -47,12 +47,15 @@ class MountainCar:
         self.position_t = -0.5
         self.velocity_t = 0.0
 
-    def reset(self, initial_position=-0.5):
+    def reset(self, exploring_starts=True, initial_position=-0.5):
         """ It reset the car to an initial position [-1.2, 0.5]
         
-        @param initial_position: the initial position of the car
+        @param exploring_starts: if True a random position is taken
+        @param initial_position: the initial position of the car (requires exploring_starts=False)
         @return: it returns the initial position of the car and the velocity
         """
+        if exploring_starts:
+            initial_position = np.random.uniform(-1.2,0.5)
         if initial_position < -1.2:
             initial_position = -1.2
         if initial_position > 0.5:
@@ -143,3 +146,6 @@ class MountainCar:
             ani.save(file_path, writer='imagemagick', fps=int(1/self.delta_t))
         elif mode == 'mp4':
             ani.save(file_path, fps=int(1/self.delta_t), writer='avconv', codec='libx264')
+        # Clear the figure
+        fig.clear()
+        plt.close(fig)
