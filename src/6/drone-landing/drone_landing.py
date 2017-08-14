@@ -61,9 +61,9 @@ class DroneLanding:
         @return: it returns the initial position [x,y,z] of the drone 
         """
         if exploring_starts:
-            self.position_x = np.random.randint(low=0, high=world_size)
-            self.position_y = np.random.randint(low=0, high=world_size)
-            self.position_z = np.random.randint(low=0, high=world_size)
+            self.position_x = np.random.randint(low=0, high=self.world_size)
+            self.position_y = np.random.randint(low=0, high=self.world_size)
+            self.position_z = np.random.randint(low=0, high=self.world_size)
         else:
             self.position_x = initial_position[0]
             self.position_y = initial_position[1]
@@ -99,16 +99,16 @@ class DroneLanding:
                              + str(action) + " is out of range.")
 
         # Check if the drone is outside the bounding box
-        if self.position_x > self.world_size:
-            self.position_x = self.world_size
+        if self.position_x >= self.world_size:
+            self.position_x = self.world_size - 1
         elif self.position_x < 0:
             self.position_x = 0
-        if self.position_y > self.world_size:
-            self.position_y = self.world_size
+        if self.position_y >= self.world_size:
+            self.position_y = self.world_size - 1
         elif self.position_y < 0:
             self.position_y = 0
-        if self.position_z > self.world_size:
-            self.position_z = self.world_size
+        if self.position_z >= self.world_size:
+            self.position_z = self.world_size - 1
         elif self.position_z < 0:
             self.position_z = 0            
 
@@ -155,9 +155,23 @@ class DroneLanding:
         ax = fig.add_subplot(111, projection='3d', autoscale_on=False, 
                              xlim=(-1, self.world_size+1), ylim=(-1, self.world_size+1), zlim=(0, self.world_size))
         # Set the tick label
-        ax.set_xticklabels(np.arange(0,self.world_size+1))
-        ax.set_yticklabels(np.arange(0,self.world_size+1))
-        # Set the ticks
+        if self.world_size < 15:
+            ax.set_xticklabels(np.arange(0, self.world_size+1))
+            ax.set_yticklabels(np.arange(0, self.world_size+1))
+        else:
+            #ax.set_xticklabels([])
+            step = int(self.world_size / 10.0)
+            label_list = list()
+            for i in range(self.world_size):
+                if i % step == 0:
+                    label_list.append(str(i))
+                else:
+                    label_list.append('')
+            ax.set_yticklabels(label_list)
+            ax.set_xticklabels(label_list)
+            ax.set_zticklabels(label_list)
+           
+        # Set the ticks   
         ax.set_xticks(np.arange(0,self.world_size+1)) 
         ax.set_yticks(np.arange(0,self.world_size+1))
         ax.set_zticks(np.arange(0,self.world_size)) 

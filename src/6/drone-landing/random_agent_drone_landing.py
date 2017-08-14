@@ -38,6 +38,5 @@ for step in range(50):
     if done: break
 print("Finished after: " + str(step+1) + " steps")
 print("Cumulated Reward: " + str(cumulated_reward))
-#print("Saving the gif in: ./mountain_car.gif")
 my_drone.render(file_path='./drone_landing.gif', mode='gif')
 print("Complete!")
