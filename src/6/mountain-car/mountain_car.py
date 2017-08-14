@@ -104,14 +104,13 @@ class MountainCar:
 
     def render(self, file_path='./mountain_car.mp4', mode='mp4'):
         """ When the method is called it saves an animation
-        of the steps happened until that point in the episode.
+        of what happened until that point in the episode.
         Ideally it should be called at the end of the episode,
-        or every k episodes.
+        and every k episodes.
         
         ATTENTION: It requires avconv and/or imagemagick installed.
         @param file_path: the name and path of the video file
         @param mode: the file can be saved as 'gif' or 'mp4'
-        :return: 
         """
         # Plot init
         fig = plt.figure()
