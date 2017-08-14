@@ -22,9 +22,24 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+#Average cumulated reward: 733.153
+#Std Cumulated Reward: 143.554381999
+#Average utility distribution: [ 0.14215225  0.2743839   0.66385142]
+#Average utility RMSE: 0.177346151284
+
+
 from multi_armed_bandit import MultiArmedBandit
 import numpy as np
 import random
+
+def return_rmse(predictions, targets):
+    """Return the Root Mean Square error between two arrays
+
+    @param predictions an array of prediction values
+    @param targets an array of target values
+    @return the RMSE
+    """
+    return np.sqrt(((predictions - targets)**2).mean())
 
 def return_greedy_action(reward_counter_array):
     """Return an action using a greedy strategy
@@ -38,7 +53,8 @@ def return_greedy_action(reward_counter_array):
 
 
 def main():
-    my_bandit = MultiArmedBandit(reward_probability_list=[0.3, 0.5, 0.8])
+    reward_distribution = [0.3, 0.5, 0.8]
+    my_bandit = MultiArmedBandit(reward_probability_list=reward_distribution)
     tot_arms = 3
     tot_episodes = 2000
     tot_steps = 1000
@@ -54,7 +70,7 @@ def main():
             if step < tot_arms:
                 action = step # press all the arms first
             else:
-                action = return_greedy_action(reward_counter_array)
+                action = return_greedy_action(np.true_divide(reward_counter_array, action_counter_array))
             reward = my_bandit.step(action)
             reward_counter_array[action] += reward 
             action_counter_array[action] += 1      
@@ -68,11 +84,13 @@ def main():
             print("Cumulated Reward: " + str(cumulated_reward))
             print("Reward counter: " + str(reward_counter_array))
             print("Utility distribution: " + str(utility_array))
+            print("Utility RMSE: " + str(return_rmse(utility_array, reward_distribution)))
             print("")
     # Print the average cumulated reward for all the episodes
     print("Average cumulated reward: " + str(np.mean(cumulated_reward_list)))
     print("Std Cumulated Reward: " + str(np.std(cumulated_reward_list)))
     print("Average utility distribution: " + str(average_utility_array / tot_episodes))
+    print("Average utility RMSE: " + str(return_rmse(average_utility_array/tot_episodes, reward_distribution)))
 
 if __name__ == "__main__":
     main()

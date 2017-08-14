@@ -22,11 +22,24 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+#Average cumulated reward: 791.21
+#Std Cumulated Reward: 13.2125281457
+#Average utility distribution: [ 0.39188487  0.50654831  0.80154085]
+#Average utility RMSE: 0.0531917417346
+
 from multi_armed_bandit import MultiArmedBandit
 import numpy as np
 import random
 
-    
+def return_rmse(predictions, targets):
+    """Return the Root Mean Square error between two arrays
+
+    @param predictions an array of prediction values
+    @param targets an array of target values
+    @return the RMSE
+    """
+    return np.sqrt(((predictions - targets)**2).mean())
+
 def return_thompson_action(success_counter_array, failure_counter_array):
     """Return an action using Thompson sampling
 
@@ -38,7 +51,8 @@ def return_thompson_action(success_counter_array, failure_counter_array):
     return np.argmax(beta_sampling_array)
 
 def main():
-    my_bandit = MultiArmedBandit(reward_probability_list=[0.3, 0.5, 0.8])
+    reward_distribution = [0.3, 0.5, 0.8]
+    my_bandit = MultiArmedBandit(reward_probability_list=reward_distribution)
     tot_arms = 3
     tot_episodes = 2000
     tot_steps = 1000
@@ -72,11 +86,13 @@ def main():
             print("Success counter: " + str(success_counter_array))
             print("Failure counter: " + str(failure_counter_array))
             print("Utility distribution: " + str(utility_array))
+            print("Utility RMSE: " + str(return_rmse(utility_array, reward_distribution)))
             print("")
     # Print the average cumulated reward for all the episodes
     print("Average cumulated reward: " + str(np.mean(cumulated_reward_list)))
     print("Std Cumulated Reward: " + str(np.std(cumulated_reward_list)))
     print("Average utility distribution: " + str(average_utility_array / tot_episodes))
+    print("Average utility RMSE: " + str(return_rmse(average_utility_array/tot_episodes, reward_distribution)))
 
 if __name__ == "__main__":
     main()
