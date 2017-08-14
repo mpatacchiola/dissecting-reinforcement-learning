@@ -2,14 +2,14 @@
 
 <div style="text-align:center"><img src ="./images/local/header.png" /></div>
 
-This repository contains the code and pdf of a series of blog post called "dissecting reinforcement learning" which I published on my blog [mpatacchiola.io/blog](https://mpatacchiola.github.io/blog/). Moreover there are links to resources that can be useful for a reinforcement learning practitioner. **If you have some good references to add please send me a pull request and I will integrate them in the main file**.
+This repository contains the code and pdf of a series of blog post called "dissecting reinforcement learning" which I published on my blog [mpatacchiola.io/blog](https://mpatacchiola.github.io/blog/). Moreover there are links to resources that can be useful for a reinforcement learning practitioner. **If you have some good references which may be of interest please send me a pull request and I will integrate them in the README**.
 
 The source code is contained in [src](./src) with the name of the subfolders following the post number. In [pdf](./pdf) there are the A3 documents of each post for offline reading. In [images](./images) there are the raw svg file containing the images used in each post.
 
 Installation
 ------------
 
-The source code does not require any particular installation procedure. The code can be used in **Linux**, **Windows**, **OS X**, and embedded devices like **Raspberry Pi**, **BeagleBone**, and **Intel Edison**. The only requirement is *Numpy* which is already present in Linux and can be easily installed in Windows and OS X through [Anaconda](https://conda.io/docs/install/full.html) or [Miniconda](https://conda.io/miniconda.html). 
+The source code does not require any particular installation procedure. The code can be used in **Linux**, **Windows**, **OS X**, and embedded devices like **Raspberry Pi**, **BeagleBone**, and **Intel Edison**. The only requirement is *Numpy* which is already present in Linux and can be easily installed in Windows and OS X through [Anaconda](https://conda.io/docs/install/full.html) or [Miniconda](https://conda.io/miniconda.html). Some examples require [Matplotlib](https://matplotlib.org/) for data visualization and animations.
 
 Posts Content
 ------------
@@ -23,6 +23,9 @@ Posts Content
 4. [[Post four]](https://mpatacchiola.github.io/blog/2017/02/11/dissecting-reinforcement-learning-4.html) [[code]](./src/4) [[pdf]](./pdf) - Neurobiology behind Actor-Critic methods, computational Actor-Critic methods, Actor-only and Critic-only methods.
 
 5. [[Post five]](https://mpatacchiola.github.io/blog/2017/03/14/dissecting-reinforcement-learning-5.html) [[code]](./src/5) [[pdf]](./pdf) - Evolutionary Algorithms introduction, Genetic Algorithm in Reinforcement Learning, Genetic Algorithms for policy selection.
+
+6. [[Sixt Post]](https://mpatacchiola.github.io/blog/2017/08/14/dissecting-reinforcement-learning-6.html) [[code]](./src/6) [[pdf]](./pdf) - Reinforcement learning applications, Multi-Armed Bandit, Mountain Car, Inverted Pendulum, Drone landing, Hard problems.
+
 
 Resources
 ---------
@@ -59,6 +62,7 @@ License
 --------
 The MIT License (MIT)
 Copyright (c) 2017 Massimiliano Patacchiola
+Website: http://mpatacchiola.github.io/blog
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY 
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
