@@ -58,6 +58,9 @@ Resources
 
 - **Reinforcement Learning in a Nutshell.** Heidrich-Meisner, V., Lauer, M., Igel, C., & Riedmiller, M. A. (2007) [[pdf]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.9557&rep=rep1&type=pdf)
 
+- **Statistical Reinforcement Learning: Modern Machine Learning Approaches**, Sugiyama, M. (2015) [[web]](https://www.crcpress.com/Statistical-Reinforcement-Learning-Modern-Machine-Learning-Approaches/Sugiyama/p/book/9781439856895)
+
+
 License
 --------
 The MIT License (MIT)
