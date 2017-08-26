@@ -24,7 +24,7 @@ Posts Content
 
 5. [[Post five]](https://mpatacchiola.github.io/blog/2017/03/14/dissecting-reinforcement-learning-5.html) [[code]](./src/5) [[pdf]](./pdf) - Evolutionary Algorithms introduction, Genetic Algorithm in Reinforcement Learning, Genetic Algorithms for policy selection.
 
-6. [[Sixt Post]](https://mpatacchiola.github.io/blog/2017/08/14/dissecting-reinforcement-learning-6.html) [[code]](./src/6) [[pdf]](./pdf) - Reinforcement learning applications, Multi-Armed Bandit, Mountain Car, Inverted Pendulum, Drone landing, Hard problems.
+6. [[Post six]](https://mpatacchiola.github.io/blog/2017/08/14/dissecting-reinforcement-learning-6.html) [[code]](./src/6) [[pdf]](./pdf) - Reinforcement learning applications, Multi-Armed Bandit, Mountain Car, Inverted Pendulum, Drone landing, Hard problems.
 
 
 Resources
@@ -54,7 +54,7 @@ Resources
 
 - **Reinforcement learning: An introduction.** Sutton, R. S., & Barto, A. G. (1998). Cambridge: MIT press. [[html]](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
 
-- **Reinforcement learning: An introduction (second edition).** Sutton, R. S., & Barto, A. G. (in progress). [[pdf]](https://webdocs.cs.ualberta.ca/~sutton/book/bookdraft2016sep.pdf)
+- **Reinforcement learning: An introduction (second edition).** Sutton, R. S., & Barto, A. G. (in progress). [[pdf]](http://incompleteideas.net/sutton/book/bookdraft2017june19.pdf)
 
 - **Reinforcement Learning in a Nutshell.** Heidrich-Meisner, V., Lauer, M., Igel, C., & Riedmiller, M. A. (2007) [[pdf]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.9557&rep=rep1&type=pdf)
 
