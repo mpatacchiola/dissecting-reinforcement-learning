@@ -22,9 +22,9 @@
 #SOFTWARE.
 
 #Example of Monte Carlo methods for control.
-#In this example I will use the class gridworld to generate a 3x4 world
-#in which the cleaning robot will move. Using the Monte Carlo method I
-#will estimate the policy and the state-action matrix of each state.
+#In this example I will use the class invertedPendulum to generate an
+#environment in which the cleaning robot will move. Using the Monte Carlo method
+#I will estimate the policy and the state-action matrix of each state.
 
 import numpy as np
 from inverted_pendulum import InvertedPendulum
