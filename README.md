@@ -26,6 +26,8 @@ Posts Content
 
 6. [[Post six]](https://mpatacchiola.github.io/blog/2017/08/14/dissecting-reinforcement-learning-6.html) [[code]](./src/6) [[pdf]](./pdf) - Reinforcement learning applications, Multi-Armed Bandit, Mountain Car, Inverted Pendulum, Drone landing, Hard problems.
 
+6. [[Post seven]](https://mpatacchiola.github.io/blog/2017/12/11/dissecting-reinforcement-learning-7.html) [[code]](./src/7) [[pdf]](./pdf) - Function approximation, Intuition, Linear approximator, Applications, High-order approximators.
+
 
 Resources
 ---------
