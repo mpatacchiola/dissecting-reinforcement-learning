@@ -23,21 +23,47 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.75813"
-     inkscape:cx="379.08561"
-     inkscape:cy="516.1848"
+     inkscape:zoom="3.5076358"
+     inkscape:cx="487.1523"
+     inkscape:cy="90.135625"
      inkscape:current-layer="layer1"
      id="namedview5544"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1056"
-     inkscape:window-x="3286"
+     inkscape:window-width="1323"
+     inkscape:window-height="744"
+     inkscape:window-x="43"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true" />
   <defs
      id="defs5542">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         id="path9206"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path9188"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
     <marker
        inkscape:stockid="Arrow1Sendk"
        orient="auto"
@@ -2795,6 +2821,216 @@
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
          style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
          transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Sendk-367535"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7035-629"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5702"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5704"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5706"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5708"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5710"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5712"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5714"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5716"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5718"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5720"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5722"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5724"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5726"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5728"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5730"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5732"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5734"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5736"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5738"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5740"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5742"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5744"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5746"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5748"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5750"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5752"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#550000;fill-rule:evenodd;stroke:#550000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path9206-9"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
     </marker>
   </defs>
   <metadata
@@ -11765,7 +12001,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
-       transform="matrix(0.28385691,0,0,0.28336534,-42.098707,154.20016)"
+       transform="matrix(0.28385691,0,0,0.28336534,-41.073658,156.20016)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-4-7-2-0-3-09-5"
        xml:space="preserve"><flowRegion
@@ -11790,7 +12026,7 @@
    id="flowSpan5402"
    style="font-size:73.3291626%;baseline-shift:super">5</flowSpan>) + (-0.04x0.9<flowSpan
    id="flowSpan5406"
-   style="font-size:73.3291626%;baseline-shift:super">6</flowSpan>) + (+1.0x0.9<flowSpan
+   style="font-size:73.3291626%;baseline-shift:super">6</flowSpan>) + (1.0x0.9<flowSpan
    id="flowSpan5410"
    style="font-size:73.3291626%;baseline-shift:super">7</flowSpan>)</flowPara></flowRoot>    <rect
        style="fill:#f2f2f2;fill-opacity:1;stroke:none"
@@ -13429,7 +13665,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="287.9118"
+       y="111.9118"
        x="352.20114"
        height="84.632507"
        width="229.21422"
@@ -13439,7 +13675,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="302.29547"
+       y="126.29547"
        x="376.3183"
        height="15.141704"
        width="15.141704"
@@ -13449,7 +13685,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="302.29547"
+       y="126.29547"
        x="392.59372"
        height="15.141704"
        width="15.141704"
@@ -13459,7 +13695,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="302.29547"
+       y="126.29547"
        x="408.86911"
        height="15.141704"
        width="15.141704"
@@ -13469,7 +13705,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="302.29547"
+       y="126.29547"
        x="425.14459"
        height="15.141704"
        width="15.141704"
@@ -13479,7 +13715,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="302.29547"
+       y="126.29547"
        x="441.42001"
        height="15.141704"
        width="15.141704"
@@ -13489,7 +13725,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="302.29547"
+       y="126.29547"
        x="457.69547"
        height="15.141704"
        width="15.141704"
@@ -13499,7 +13735,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="302.29547"
+       y="126.29547"
        x="473.97089"
        height="15.141704"
        width="15.141704"
@@ -13509,7 +13745,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="302.29547"
+       y="126.29547"
        x="490.24631"
        height="15.141704"
        width="15.141704"
@@ -13519,7 +13755,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="302.29547"
+       y="126.29547"
        x="506.52173"
        height="15.141704"
        width="15.141704"
@@ -13529,7 +13765,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="302.29547"
+       y="126.29547"
        x="522.79712"
        height="15.141704"
        width="15.141704"
@@ -13539,7 +13775,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="302.29547"
+       y="126.29547"
        x="539.07257"
        height="15.141704"
        width="15.141704"
@@ -13549,7 +13785,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="302.29547"
+       y="126.29547"
        x="555.34796"
        height="15.141704"
        width="15.141704"
@@ -13559,7 +13795,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       transform="matrix(0.28026355,0,0,0.28026355,315.40412,21.539434)"
+       transform="matrix(0.28026355,0,0,0.28026355,315.40412,-154.46057)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-0-55-4-3"
        xml:space="preserve"><flowRegion
@@ -13574,7 +13810,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       transform="matrix(0.28026355,0,0,0.28026355,331.67955,21.539434)"
+       transform="matrix(0.28026355,0,0,0.28026355,331.67955,-154.46057)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-0-55-4-3-5"
        xml:space="preserve"><flowRegion
@@ -13589,7 +13825,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       transform="matrix(0.28026355,0,0,0.28026355,347.95497,21.539434)"
+       transform="matrix(0.28026355,0,0,0.28026355,347.95497,-154.46057)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-0-55-4-3-6"
        xml:space="preserve"><flowRegion
@@ -13604,7 +13840,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       transform="matrix(0.28026355,0,0,0.28026355,364.2304,21.539434)"
+       transform="matrix(0.28026355,0,0,0.28026355,364.2304,-154.46057)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-0-55-4-3-56"
        xml:space="preserve"><flowRegion
@@ -13619,7 +13855,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       transform="matrix(0.28026355,0,0,0.28026355,380.50582,21.539434)"
+       transform="matrix(0.28026355,0,0,0.28026355,380.50582,-154.46057)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-0-55-4-3-8"
        xml:space="preserve"><flowRegion
@@ -13634,7 +13870,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       transform="matrix(0.28026355,0,0,0.28026355,396.78123,21.539434)"
+       transform="matrix(0.28026355,0,0,0.28026355,396.78123,-154.46057)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-0-55-4-3-5-3"
        xml:space="preserve"><flowRegion
@@ -13649,7 +13885,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       transform="matrix(0.28026355,0,0,0.28026355,413.05667,21.539434)"
+       transform="matrix(0.28026355,0,0,0.28026355,413.05667,-154.46057)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-0-55-4-3-6-8"
        xml:space="preserve"><flowRegion
@@ -13664,7 +13900,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       transform="matrix(0.28026355,0,0,0.28026355,429.33209,21.539434)"
+       transform="matrix(0.28026355,0,0,0.28026355,429.33209,-154.46057)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-0-55-4-3-56-6"
        xml:space="preserve"><flowRegion
@@ -13679,7 +13915,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       transform="matrix(0.28026355,0,0,0.28026355,445.6075,21.539434)"
+       transform="matrix(0.28026355,0,0,0.28026355,445.6075,-154.46057)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-0-55-4-3-61"
        xml:space="preserve"><flowRegion
@@ -13694,7 +13930,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       transform="matrix(0.28026355,0,0,0.28026355,461.88294,21.539434)"
+       transform="matrix(0.28026355,0,0,0.28026355,461.88294,-154.46057)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-0-55-4-3-5-1"
        xml:space="preserve"><flowRegion
@@ -13709,7 +13945,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       transform="matrix(0.28026355,0,0,0.28026355,478.15836,21.539434)"
+       transform="matrix(0.28026355,0,0,0.28026355,478.15836,-154.46057)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-0-55-4-3-6-4"
        xml:space="preserve"><flowRegion
@@ -13724,7 +13960,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       transform="matrix(0.28026355,0,0,0.28026355,494.4338,21.539434)"
+       transform="matrix(0.28026355,0,0,0.28026355,494.4338,-154.46057)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-0-55-4-3-56-7"
        xml:space="preserve"><flowRegion
@@ -13739,7 +13975,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="318.68872"
+       y="142.68872"
        x="376.3183"
        height="15.141704"
        width="15.141704"
@@ -13749,7 +13985,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="318.68872"
+       y="142.68872"
        x="392.59372"
        height="15.141704"
        width="15.141704"
@@ -13759,7 +13995,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="318.68872"
+       y="142.68872"
        x="408.86911"
        height="15.141704"
        width="15.141704"
@@ -13769,7 +14005,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="318.68872"
+       y="142.68872"
        x="425.14459"
        height="15.141704"
        width="15.141704"
@@ -13779,7 +14015,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="318.68872"
+       y="142.68872"
        x="441.42001"
        height="15.141704"
        width="15.141704"
@@ -13789,7 +14025,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="318.68872"
+       y="142.68872"
        x="457.69547"
        height="15.141704"
        width="15.141704"
@@ -13799,7 +14035,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="318.68872"
+       y="142.68872"
        x="473.97089"
        height="15.141704"
        width="15.141704"
@@ -13809,7 +14045,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="318.68872"
+       y="142.68872"
        x="490.24631"
        height="15.141704"
        width="15.141704"
@@ -13819,7 +14055,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="318.68872"
+       y="142.68872"
        x="506.52173"
        height="15.141704"
        width="15.141704"
@@ -13829,7 +14065,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="318.68872"
+       y="142.68872"
        x="522.79712"
        height="15.141704"
        width="15.141704"
@@ -13839,7 +14075,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="318.68872"
+       y="142.68872"
        x="539.07257"
        height="15.141704"
        width="15.141704"
@@ -13849,7 +14085,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="318.68872"
+       y="142.68872"
        x="555.34796"
        height="15.141704"
        width="15.141704"
@@ -13859,7 +14095,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="335.08209"
+       y="159.08209"
        x="376.3183"
        height="15.141704"
        width="15.141704"
@@ -13869,7 +14105,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="335.08209"
+       y="159.08209"
        x="392.59372"
        height="15.141704"
        width="15.141704"
@@ -13879,7 +14115,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="335.08209"
+       y="159.08209"
        x="408.86911"
        height="15.141704"
        width="15.141704"
@@ -13889,7 +14125,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="335.08209"
+       y="159.08209"
        x="425.14459"
        height="15.141704"
        width="15.141704"
@@ -13899,7 +14135,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="335.08209"
+       y="159.08209"
        x="441.42001"
        height="15.141704"
        width="15.141704"
@@ -13909,7 +14145,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="335.08209"
+       y="159.08209"
        x="457.69547"
        height="15.141704"
        width="15.141704"
@@ -13919,7 +14155,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="335.08209"
+       y="159.08209"
        x="473.97089"
        height="15.141704"
        width="15.141704"
@@ -13929,7 +14165,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="335.08209"
+       y="159.08209"
        x="490.24631"
        height="15.141704"
        width="15.141704"
@@ -13939,7 +14175,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="335.08209"
+       y="159.08209"
        x="506.52173"
        height="15.141704"
        width="15.141704"
@@ -13949,7 +14185,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="335.08209"
+       y="159.08209"
        x="522.79712"
        height="15.141704"
        width="15.141704"
@@ -13959,7 +14195,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="335.08209"
+       y="159.08209"
        x="539.07257"
        height="15.141704"
        width="15.141704"
@@ -13969,7 +14205,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="335.08209"
+       y="159.08209"
        x="555.34796"
        height="15.141704"
        width="15.141704"
@@ -13979,7 +14215,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="351.4754"
+       y="175.4754"
        x="376.3183"
        height="15.141704"
        width="15.141704"
@@ -13989,7 +14225,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="351.4754"
+       y="175.4754"
        x="392.59372"
        height="15.141704"
        width="15.141704"
@@ -13999,7 +14235,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="351.4754"
+       y="175.4754"
        x="408.86911"
        height="15.141704"
        width="15.141704"
@@ -14009,7 +14245,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="351.4754"
+       y="175.4754"
        x="425.14459"
        height="15.141704"
        width="15.141704"
@@ -14019,7 +14255,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="351.4754"
+       y="175.4754"
        x="441.42001"
        height="15.141704"
        width="15.141704"
@@ -14029,7 +14265,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="351.4754"
+       y="175.4754"
        x="457.69547"
        height="15.141704"
        width="15.141704"
@@ -14039,7 +14275,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="351.4754"
+       y="175.4754"
        x="473.97089"
        height="15.141704"
        width="15.141704"
@@ -14049,7 +14285,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="351.4754"
+       y="175.4754"
        x="490.24631"
        height="15.141704"
        width="15.141704"
@@ -14059,7 +14295,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="351.4754"
+       y="175.4754"
        x="506.52173"
        height="15.141704"
        width="15.141704"
@@ -14069,7 +14305,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="351.4754"
+       y="175.4754"
        x="522.79712"
        height="15.141704"
        width="15.141704"
@@ -14079,7 +14315,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="351.4754"
+       y="175.4754"
        x="539.07257"
        height="15.141704"
        width="15.141704"
@@ -14089,7 +14325,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
-       y="351.4754"
+       y="175.4754"
        x="555.34796"
        height="15.141704"
        width="15.141704"
@@ -14101,7 +14337,7 @@
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
        inkscape:connector-curvature="0"
        id="path6773-9-1-9-9-0-8-3"
-       d="m 365.89568,314.41096 0,-7.92213"
+       d="m 365.89568,138.41096 0,-7.92213"
        style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)" />
     <path
        inkscape:export-ydpi="300"
@@ -14109,15 +14345,15 @@
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
        inkscape:connector-curvature="0"
        id="path6773-9-6-4-8-8-5-7-4"
-       d="m 361.35111,326.25965 7.92213,0"
-       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.26141732;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)" />
+       d="m 361.35111,150.25965 7.92213,0"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.26141727;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)" />
     <path
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
        inkscape:connector-curvature="0"
        id="path6773-9-6-4-0-9-7-3-9-6-6"
-       d="m 370.44024,359.04617 -7.92212,0"
+       d="m 370.44024,183.04617 -7.92212,0"
        style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)" />
     <path
        inkscape:export-ydpi="300"
@@ -14125,15 +14361,15 @@
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
        inkscape:connector-curvature="0"
        id="path6773-9-6-4-0-6-0-0-1-4-6-4"
-       d="m 365.89568,338.10841 0,7.92209"
+       d="m 365.89568,162.10841 0,7.92209"
        style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)" />
     <rect
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
-       y="386.47009"
+       y="206.47009"
        x="356.71896"
-       height="59.305462"
+       height="48.276005"
        width="229.21422"
        id="rect6278-2-7-2-2-5-2"
        style="fill:#f2f2f2;fill-opacity:1;stroke:none" />
@@ -14143,13 +14379,13 @@
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:connector-curvature="0"
        id="path6773-9-6-4-8-8-5-4-8-5-9"
-       d="m 381.57063,406.33066 7.30913,0"
+       d="m 381.57063,226.33066 7.30913,0"
        style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)" />
     <rect
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
-       y="398.66656"
+       y="218.66656"
        x="363.8569"
        height="15.328308"
        width="15.328308"
@@ -14159,7 +14395,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
-       transform="matrix(0.28371747,0,0,0.28371747,302.78275,128.22017)"
+       transform="matrix(0.28371747,0,0,0.28371747,302.78275,-51.77983)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-4-7-2-9-2"
        xml:space="preserve"><flowRegion
@@ -14176,13 +14412,13 @@
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:connector-curvature="0"
        id="path6773-9-6-4-8-8-5-4-8-3-2-2"
-       d="m 410.05557,406.33066 7.30913,0"
+       d="m 410.05557,226.33066 7.30913,0"
        style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)" />
     <rect
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
-       y="398.66656"
+       y="218.66656"
        x="392.34186"
        height="15.328308"
        width="15.328308"
@@ -14192,7 +14428,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
-       transform="matrix(0.28371747,0,0,0.28371747,331.2677,128.22017)"
+       transform="matrix(0.28371747,0,0,0.28371747,331.2677,-51.77983)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-4-7-2-0-7-8"
        xml:space="preserve"><flowRegion
@@ -14207,7 +14443,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
-       transform="matrix(0.28371747,0,0,0.28371747,316.71242,116.36999)"
+       transform="matrix(0.28371747,0,0,0.28371747,316.71242,-63.63001)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-4-7-2-0-3-8-2-0"
        xml:space="preserve"><flowRegion
@@ -14220,7 +14456,7 @@
          style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial"
          id="flowPara6560-3-2-9-4-8-0-5-7">-0.04</flowPara></flowRoot>    <path
        style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
-       d="m 438.54051,406.33066 7.30913,0"
+       d="m 438.54051,226.33066 7.30913,0"
        id="path9526-9-5"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
@@ -14230,7 +14466,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
-       y="398.66656"
+       y="218.66656"
        x="420.82681"
        height="15.328308"
        width="15.328308"
@@ -14240,7 +14476,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
-       transform="matrix(0.28371747,0,0,0.28371747,359.75264,128.22017)"
+       transform="matrix(0.28371747,0,0,0.28371747,359.75264,-51.77983)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-4-7-2-0-2-9-2"
        xml:space="preserve"><flowRegion
@@ -14255,7 +14491,7 @@
        xml:space="preserve"
        id="flowRoot9538-1-3"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-       transform="matrix(0.28371747,0,0,0.28371747,345.19737,116.36999)"
+       transform="matrix(0.28371747,0,0,0.28371747,345.19737,-63.63001)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><flowRegion
@@ -14268,7 +14504,7 @@
          id="flowPara9544-1-2"
          style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial">-0.04</flowPara></flowRoot>    <path
        style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
-       d="m 467.02546,406.33066 7.30913,0"
+       d="m 467.02546,226.33066 7.30913,0"
        id="path9546-9-9"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
@@ -14280,7 +14516,7 @@
        width="15.328308"
        height="15.328308"
        x="449.31177"
-       y="398.66656"
+       y="218.66656"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -14288,7 +14524,7 @@
        xml:space="preserve"
        id="flowRoot9530-8-9"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-       transform="matrix(0.28371747,0,0,0.28371747,388.23761,128.22017)"
+       transform="matrix(0.28371747,0,0,0.28371747,388.23761,-51.77983)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><flowRegion
@@ -14303,7 +14539,7 @@
        xml:space="preserve"
        id="flowRoot9558-3-4"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-       transform="matrix(0.28371747,0,0,0.28371747,373.68233,116.36999)"
+       transform="matrix(0.28371747,0,0,0.28371747,373.68233,-63.63001)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><flowRegion
@@ -14320,7 +14556,7 @@
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:connector-curvature="0"
        id="path6773-9-6-4-8-8-5-4-8-3-1-63-6"
-       d="m 495.5104,406.33066 7.30913,0"
+       d="m 495.5104,226.33066 7.30913,0"
        style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1"
@@ -14328,7 +14564,7 @@
        width="15.328308"
        height="15.328308"
        x="477.79669"
-       y="398.66656"
+       y="218.66656"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -14336,7 +14572,7 @@
        xml:space="preserve"
        id="flowRoot9550-1-6"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-       transform="matrix(0.28371747,0,0,0.28371747,416.72253,128.22017)"
+       transform="matrix(0.28371747,0,0,0.28371747,416.72253,-51.77983)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><flowRegion
@@ -14351,7 +14587,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
-       transform="matrix(0.28371747,0,0,0.28371747,402.16725,116.36999)"
+       transform="matrix(0.28371747,0,0,0.28371747,402.16725,-63.63001)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-4-7-2-0-3-8-1-7-6"
        xml:space="preserve"><flowRegion
@@ -14364,7 +14600,7 @@
          style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial"
          id="flowPara6560-3-2-9-4-8-0-7-6-5">-0.04</flowPara></flowRoot>    <path
        style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
-       d="m 523.99535,406.33066 7.30914,0"
+       d="m 523.99535,226.33066 7.30914,0"
        id="path9526-0-9-4"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
@@ -14374,7 +14610,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
-       y="398.66656"
+       y="218.66656"
        x="506.28165"
        height="15.328308"
        width="15.328308"
@@ -14384,7 +14620,7 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
-       transform="matrix(0.28371747,0,0,0.28371747,445.2075,128.22017)"
+       transform="matrix(0.28371747,0,0,0.28371747,445.2075,-51.77983)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-4-7-2-0-2-4-4-5"
        xml:space="preserve"><flowRegion
@@ -14399,7 +14635,7 @@
        xml:space="preserve"
        id="flowRoot9538-0-4-7"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-       transform="matrix(0.28371747,0,0,0.28371747,430.65222,116.36999)"
+       transform="matrix(0.28371747,0,0,0.28371747,430.65222,-63.63001)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><flowRegion
@@ -14412,7 +14648,7 @@
          id="flowPara9544-2-43-2"
          style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial">-0.04</flowPara></flowRoot>    <path
        style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
-       d="m 552.48029,406.33066 7.30914,0"
+       d="m 552.48029,226.33066 7.30914,0"
        id="path9546-8-0-5"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
@@ -14424,7 +14660,7 @@
        width="15.328308"
        height="15.328308"
        x="534.76654"
-       y="398.66656"
+       y="218.66656"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -14432,7 +14668,7 @@
        xml:space="preserve"
        id="flowRoot9530-2-6-4"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-       transform="matrix(0.28371747,0,0,0.28371747,473.69242,128.22017)"
+       transform="matrix(0.28371747,0,0,0.28371747,473.69242,-51.77983)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><flowRegion
@@ -14447,7 +14683,7 @@
        xml:space="preserve"
        id="flowRoot9558-9-3-7"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-       transform="matrix(0.28371747,0,0,0.28371747,459.13715,116.36999)"
+       transform="matrix(0.28371747,0,0,0.28371747,459.13715,-63.63001)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><flowRegion
@@ -14464,7 +14700,7 @@
        width="15.328308"
        height="15.328308"
        x="563.25153"
-       y="398.66656"
+       y="218.66656"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -14472,7 +14708,7 @@
        xml:space="preserve"
        id="flowRoot9550-7-9-3"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-       transform="matrix(0.28371747,0,0,0.28371747,502.17737,128.22017)"
+       transform="matrix(0.28371747,0,0,0.28371747,502.17737,-51.77983)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><flowRegion
@@ -14487,7 +14723,7 @@
        xml:space="preserve"
        id="flowRoot9558-9-8-9-2"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-       transform="matrix(0.28371747,0,0,0.28371747,488.50289,116.36999)"
+       transform="matrix(0.28371747,0,0,0.28371747,488.50289,-63.63001)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><flowRegion
@@ -14503,7 +14739,7 @@
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"
-       transform="matrix(0.31788348,0,0,0.31788348,295.32412,-578.23814)">
+       transform="matrix(0.31788348,0,0,0.31788348,295.32412,-758.23814)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1"
          id="rect6327-37-2-2-1-7"
@@ -14525,7 +14761,7 @@
     </g>
     <g
        id="g5693"
-       transform="matrix(0.31788348,0,0,0.31788348,294.7377,-578.23814)"
+       transform="matrix(0.31788348,0,0,0.31788348,294.7377,-758.23814)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -14550,7 +14786,7 @@
     </g>
     <g
        id="g5697"
-       transform="matrix(0.31788348,0,0,0.31788348,295.34528,-578.23814)"
+       transform="matrix(0.31788348,0,0,0.31788348,295.34528,-758.23814)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -14575,7 +14811,7 @@
     </g>
     <g
        id="g5701"
-       transform="matrix(0.31788348,0,0,0.31788348,295.53676,-578.23814)"
+       transform="matrix(0.31788348,0,0,0.31788348,295.53676,-758.23814)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -14600,7 +14836,7 @@
     </g>
     <g
        id="g5705"
-       transform="matrix(0.31788348,0,0,0.31788348,294.89609,-578.23814)"
+       transform="matrix(0.31788348,0,0,0.31788348,294.89609,-758.23814)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -14625,7 +14861,7 @@
     </g>
     <g
        id="g5709"
-       transform="matrix(0.31788348,0,0,0.31788348,295.91974,-578.23814)"
+       transform="matrix(0.31788348,0,0,0.31788348,295.91974,-758.23814)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -14650,7 +14886,7 @@
     </g>
     <g
        id="g5713"
-       transform="matrix(0.31788348,0,0,0.31788348,295.32413,-578.23814)"
+       transform="matrix(0.31788348,0,0,0.31788348,295.32413,-758.23814)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -15379,7 +15615,7 @@
        xml:space="preserve"
        id="flowRoot9530-8-9-5-8"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-       transform="matrix(0.28371747,0,0,0.28371747,351.45403,229.69657)"
+       transform="matrix(0.28371747,0,0,0.28371747,352.98858,229.6982)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table_updated_one_ep.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><flowRegion
@@ -15390,7 +15626,7 @@
            x="219.381"
            y="964.29407" /></flowRegion><flowPara
          id="flowPara9536-0-8-4-3"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.53</flowPara></flowRoot>    <flowRoot
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">1.0</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot9530-8-9-5-0"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
@@ -15405,7 +15641,7 @@
            x="219.381"
            y="964.29407" /></flowRegion><flowPara
          id="flowPara9536-0-8-4-4"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.38</flowPara></flowRoot>    <flowRoot
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.43</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot9530-8-9-5-8-1"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
@@ -15420,11 +15656,11 @@
            x="219.381"
            y="964.29407" /></flowRegion><flowPara
          id="flowPara9536-0-8-4-3-9"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.42</flowPara></flowRoot>    <flowRoot
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.52</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot9530-8-9-5-8-1-6"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-       transform="matrix(0.28371747,0,0,0.28371747,335.60987,229.69809)"
+       transform="matrix(0.28371747,0,0,0.28371747,335.18014,229.69809)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table_updated_one_ep.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><flowRegion
@@ -15435,11 +15671,11 @@
            x="219.381"
            y="964.29407" /></flowRegion><flowPara
          id="flowPara9536-0-8-4-3-9-7"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.51</flowPara></flowRoot>    <flowRoot
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.86</flowPara></flowRoot>    <flowRoot
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits.png"
-       transform="matrix(0.28385691,0,0,0.28336534,311.25456,161.92724)"
+       transform="matrix(0.28385691,0,0,0.28336534,310.94807,-11.781853)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot6554-4-7-2-0-3-09-5-8"
        xml:space="preserve"><flowRegion
@@ -16069,7 +16305,7 @@
            x="219.381"
            y="964.29407" /></flowRegion><flowPara
          id="flowPara9536-0-8-4-3-9-6"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.48</flowPara></flowRoot>    <rect
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.74</flowPara></flowRoot>    <rect
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_improvement.png"
@@ -16181,7 +16417,7 @@
            x="219.381"
            y="964.29407" /></flowRegion><flowPara
          id="flowPara9536-0-8-4-3-9-74"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.42</flowPara></flowRoot>    <flowRoot
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.52</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot9530-8-9-5-8-1-8-0"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
@@ -16196,7 +16432,7 @@
            x="219.381"
            y="964.29407" /></flowRegion><flowPara
          id="flowPara9536-0-8-4-3-9-6-7"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.48</flowPara></flowRoot>    <g
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.74</flowPara></flowRoot>    <g
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_improvement.png"
@@ -16847,17 +17083,17 @@
        width="229.21422"
        height="84.806175"
        x="352.54846"
-       y="188.57401"
+       y="12.574013"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.70866142;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.70866144;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect5604"
        width="15.141704"
        height="15.141704"
        x="416.59885"
-       y="216.342"
+       y="40.342003"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -16865,7 +17101,7 @@
        xml:space="preserve"
        id="flowRoot9530-8-9-5-0-3"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-       transform="matrix(0.28371747,0,0,0.28371747,355.86112,-53.609458)"
+       transform="matrix(0.28371747,0,0,0.28371747,355.86112,-229.60946)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><flowRegion
@@ -16878,7 +17114,7 @@
          id="flowPara9536-0-8-4-4-5"
          style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.38</flowPara></flowRoot>    <g
        id="g5771"
-       transform="translate(-4.0046585,20.857684)"
+       transform="translate(-4.0046585,-155.14232)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -16909,12 +17145,12 @@
            id="flowPara5641"
            style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.12</flowPara></flowRoot>    </g>
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.70866142;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.70866144;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect5643"
        width="15.141704"
        height="15.141704"
        x="459.29361"
-       y="228.26894"
+       y="52.268944"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -16922,7 +17158,7 @@
        xml:space="preserve"
        id="flowRoot5645"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
-       transform="matrix(0.28371747,0,0,0.28371747,398.55587,-41.682525)"
+       transform="matrix(0.28371747,0,0,0.28371747,398.55587,-217.68252)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><flowRegion
@@ -16937,17 +17173,17 @@
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
-       y="243.06419"
+       y="67.064194"
        x="501.78629"
        height="15.141704"
        width="15.141704"
        id="rect5653"
-       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.70866141999999999;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.70866144;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <flowRoot
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
-       transform="matrix(0.28371747,0,0,0.28371747,441.04855,-26.887261)"
+       transform="matrix(0.28371747,0,0,0.28371747,441.04855,-202.88726)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot5655"
        xml:space="preserve"><flowRegion
@@ -16960,7 +17196,7 @@
          style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
          id="flowPara5661">0.23</flowPara></flowRoot>    <g
        id="g7728"
-       transform="translate(11.104398,-21.364581)"
+       transform="translate(11.104398,-197.36458)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -16992,7 +17228,7 @@
            id="flowPara5671">0.42</flowPara></flowRoot>    </g>
     <g
        id="g7751"
-       transform="translate(-40.528017,19.367393)"
+       transform="translate(-40.528017,-156.63261)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -17024,7 +17260,7 @@
            style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">+1.0</flowPara></flowRoot>    </g>
     <g
        id="g7758"
-       transform="translate(11.715059,24.528986)"
+       transform="translate(11.715059,-151.47101)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -17107,8 +17343,8 @@
     </g>
     <path
        sodipodi:nodetypes="cc"
-       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.523242,1.261621;marker-end:url(#Arrow1Sendk);stroke-dashoffset:0"
-       d="m 390.10496,234.45588 22.78214,9.71711"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.523242, 1.261621;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
+       d="m 390.10496,58.45588 22.78214,9.71711"
        id="path7771"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
@@ -17116,8 +17352,8 @@
        inkscape:export-ydpi="300" />
     <path
        sodipodi:nodetypes="cc"
-       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.523242,1.261621;marker-end:url(#Arrow1Sendk);stroke-dashoffset:0"
-       d="m 433.17449,223.67607 22.78214,-9.71711"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.523242, 1.261621;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
+       d="m 433.17449,47.67607 22.78214,-9.71711"
        id="path7779"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
@@ -17129,7 +17365,7 @@
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:connector-curvature="0"
        id="path7781"
-       d="m 433.17449,223.51483 22.78214,9.71711"
+       d="m 433.17449,47.51483 22.78214,9.71711"
        style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)"
        sodipodi:nodetypes="cc" />
     <path
@@ -17138,24 +17374,24 @@
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:connector-curvature="0"
        id="path7795"
-       d="m 433.00082,247.48094 22.78214,9.71711"
-       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.523242,1.261621;marker-end:url(#Arrow1Sendk);stroke-dashoffset:0"
+       d="m 433.00082,71.48094 22.78214,9.71711"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.523242, 1.261621;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
        sodipodi:nodetypes="cc" />
     <rect
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
-       y="243.06419"
+       y="67.064194"
        x="545.20319"
        height="15.141704"
        width="15.141704"
        id="rect7803"
-       style="fill:#f79393;fill-opacity:1;stroke:#ff0000;stroke-width:0.70866142;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+       style="fill:#f79393;fill-opacity:1;stroke:#ff0000;stroke-width:0.70866144;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <flowRoot
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
-       transform="matrix(0.28371747,0,0,0.28371747,485.20298,-26.88574)"
+       transform="matrix(0.28371747,0,0,0.28371747,485.20298,-202.88574)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
        id="flowRoot7805"
        xml:space="preserve"><flowRegion
@@ -17172,13 +17408,13 @@
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:connector-curvature="0"
        id="path7817"
-       d="m 475.81341,237.04846 22.78214,-9.71711"
-       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.523242,1.261621;marker-end:url(#Arrow1Sendk);stroke-dashoffset:0"
+       d="m 475.81341,61.04846 22.78214,-9.71711"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.523242, 1.261621;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
        sodipodi:nodetypes="cc" />
     <path
        sodipodi:nodetypes="cc"
        style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)"
-       d="m 475.81341,236.88722 22.78214,9.71711"
+       d="m 475.81341,60.88722 22.78214,9.71711"
        id="path7819"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
@@ -17186,15 +17422,15 @@
        inkscape:export-ydpi="300" />
     <path
        sodipodi:nodetypes="cc"
-       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.523242,1.261621;marker-end:url(#Arrow1Sendk);stroke-dashoffset:0"
-       d="m 475.81341,213.43052 22.78214,-9.71711"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.523242, 1.261621;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
+       d="m 475.81341,37.43052 22.78214,-9.71711"
        id="path7821"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <g
-       transform="translate(53.597076,-31.089961)"
+       transform="translate(53.597076,-207.08996)"
        id="g7836"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
@@ -17226,7 +17462,7 @@
            id="flowPara7846"
            style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">0.82</flowPara></flowRoot>    </g>
     <g
-       transform="translate(13.452453,51.745101)"
+       transform="translate(13.452453,-124.2549)"
        id="g7869"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
@@ -17258,7 +17494,7 @@
            style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
            id="flowPara7879">0.05</flowPara></flowRoot>    </g>
     <g
-       transform="translate(45.381533,-14.248551)"
+       transform="translate(45.381533,-190.24855)"
        id="g8053"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
@@ -17291,7 +17527,7 @@
            id="flowPara8063">+1.0</flowPara></flowRoot>    </g>
     <path
        style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.26141727;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)"
-       d="m 517.65504,250.63505 24.24687,0"
+       d="m 517.65504,74.63505 24.24687,0"
        id="path8069"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
@@ -17305,11 +17541,11 @@
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:connector-curvature="0"
        id="path8071"
-       d="m 517.65504,226.32444 24.24687,0"
-       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.26141727;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.52283454,1.26141727;marker-end:url(#Arrow1Sendk);stroke-dashoffset:0" />
+       d="m 517.65504,50.32444 24.24687,0"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.26141727;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.52283454, 1.26141727;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)" />
     <g
        id="g8073"
-       transform="translate(45.381533,-38.559184)"
+       transform="translate(45.381533,-214.55918)"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -17340,8 +17576,8 @@
            id="flowPara8083"
            style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">+1.0</flowPara></flowRoot>    </g>
     <path
-       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.26141727;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.52283454,1.26141727;marker-end:url(#Arrow1Sendk);stroke-dashoffset:0"
-       d="m 517.65504,202.01381 24.24687,0"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.26141727;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.52283454, 1.26141727;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
+       d="m 517.65504,26.01381 24.24687,0"
        id="path8085"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
@@ -17354,8 +17590,1332 @@
        inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_passive_monte_carlo_bad_greedy_algorithm.png"
        inkscape:connector-curvature="0"
        id="path6773-9-6-4-8-8-5-7-4-6"
-       d="m 390.10496,234.61712 22.78214,-9.71711"
-       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk);stroke-dashoffset:0"
+       d="M 390.10496,58.61712 412.8871,48.90001"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.261621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
        sodipodi:nodetypes="cc" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       y="281.54395"
+       x="358.28256"
+       height="176.54018"
+       width="229.21422"
+       id="rect6278-2-7-2-2-5-2-1"
+       style="fill:#f2f2f2;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:connector-curvature="0"
+       id="path6773-9-6-4-8-8-5-4-8-5-9-2"
+       d="m 382.28108,301.4045 7.30913,0"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       y="293.74042"
+       x="364.56735"
+       height="15.328308"
+       width="15.328308"
+       id="rect6327-37-2-2-1-70"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,303.4932,23.29401)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot6554-4-7-2-9-2-9"
+       xml:space="preserve"><flowRegion
+         id="flowRegion6556-1-4-4-1-7-3"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect6558-79-5-7-2-0-6" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara6560-3-2-9-7-9-0">(1,1)</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:connector-curvature="0"
+       id="path6773-9-6-4-8-8-5-4-8-3-2-2-6"
+       d="m 410.76602,301.4045 7.30913,0"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       y="293.74042"
+       x="393.05231"
+       height="15.328308"
+       width="15.328308"
+       id="rect6327-37-2-6-18-1-2"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,331.97815,23.29401)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot6554-4-7-2-0-7-8-6"
+       xml:space="preserve"><flowRegion
+         id="flowRegion6556-1-4-4-0-9-7-1"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect6558-79-5-7-6-2-9-8" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara6560-3-2-9-4-0-2-7">(1,2)</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,317.42287,11.44383)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot6554-4-7-2-0-3-8-2-0-9"
+       xml:space="preserve"><flowRegion
+         id="flowRegion6556-1-4-4-0-7-6-3-2-2"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect6558-79-5-7-6-5-7-7-3-0" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara6560-3-2-9-4-8-0-5-7-2">-0.04</flowPara></flowRoot>    <path
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
+       d="m 439.25096,301.4045 7.30913,0"
+       id="path9526-9-5-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       y="293.74042"
+       x="421.53726"
+       height="15.328308"
+       width="15.328308"
+       id="rect6327-37-2-6-0-8-2-7"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,360.46309,23.29401)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot6554-4-7-2-0-2-9-2-59"
+       xml:space="preserve"><flowRegion
+         id="flowRegion6556-1-4-4-0-6-7-8-2"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect6558-79-5-7-6-4-3-9-2" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara6560-3-2-9-4-3-6-7-8">(1,3)</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9538-1-3-97"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,345.90782,11.44383)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion9540-29-6-3"><rect
+           id="rect9542-3-1-61"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara9544-1-2-2"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial">-0.04</flowPara></flowRoot>    <path
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
+       d="m 467.73592,301.4045 7.30913,0"
+       id="path9546-9-9-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1"
+       id="rect9528-7-1-3"
+       width="15.328308"
+       height="15.328308"
+       x="450.02222"
+       y="293.74042"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9530-8-9-1"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,388.94806,23.29401)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion9532-4-4-9"><rect
+           id="rect9534-5-7-4"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara9536-0-8-7"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">(1,2)</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9558-3-4-8"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,374.39278,11.44383)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion9560-6-5-4"><rect
+           id="rect9562-1-0-5"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara9564-0-3-0"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial">-0.04</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:connector-curvature="0"
+       id="path6773-9-6-4-8-8-5-4-8-3-1-63-6-3"
+       d="m 496.22086,301.4045 7.30913,0"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1"
+       id="rect9548-06-0-6"
+       width="15.328308"
+       height="15.328308"
+       x="478.50714"
+       y="293.74042"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9550-1-6-1"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,417.43298,23.29401)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion9552-5-3-0"><rect
+           id="rect9554-5-2-6"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara9556-4-0-3"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">(1,3)</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,402.8777,11.44383)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot6554-4-7-2-0-3-8-1-7-6-20"
+       xml:space="preserve"><flowRegion
+         id="flowRegion6556-1-4-4-0-7-6-5-6-1-6"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect6558-79-5-7-6-5-7-9-5-5-1" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara6560-3-2-9-4-8-0-7-6-5-55">-0.04</flowPara></flowRoot>    <path
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
+       d="m 524.70581,301.4045 7.30914,0"
+       id="path9526-0-9-4-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       y="293.74042"
+       x="506.9921"
+       height="15.328308"
+       width="15.328308"
+       id="rect6327-37-2-6-0-6-7-6-7"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,445.91795,23.29401)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot6554-4-7-2-0-2-4-4-5-6"
+       xml:space="preserve"><flowRegion
+         id="flowRegion6556-1-4-4-0-6-8-5-6-5"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect6558-79-5-7-6-4-5-2-9-6" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara6560-3-2-9-4-3-0-5-3-9">(2,3)</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9538-0-4-7-3"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,431.36267,11.44383)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion9540-2-7-4-7"><rect
+           id="rect9542-7-4-5-4"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara9544-2-43-2-5"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial">-0.04</flowPara></flowRoot>    <path
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
+       d="m 553.19075,301.4045 7.30914,0"
+       id="path9546-8-0-5-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1"
+       id="rect9528-6-8-7-5"
+       width="15.328308"
+       height="15.328308"
+       x="535.47699"
+       y="293.74042"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9530-2-6-4-4"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,474.40288,23.29401)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion9532-8-8-4-7"><rect
+           id="rect9534-9-8-3-4"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara9536-5-4-0-43"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">(3,3)</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9558-9-3-7-0"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,459.84761,11.44383)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion9560-8-1-8-7"><rect
+           id="rect9562-8-49-6-8"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara9564-9-20-8-6"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial">-0.04</flowPara></flowRoot>    <rect
+       style="fill:#008000;fill-opacity:0.39215686;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1"
+       id="rect9548-1-8-4-8"
+       width="15.328308"
+       height="15.328308"
+       x="563.96198"
+       y="293.74042"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9550-7-9-3-8"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,502.88783,23.29401)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion9552-7-2-1-4"><rect
+           id="rect9554-9-66-4-3"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara9556-7-4-9-1"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">(4,3)</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9558-9-8-9-2-4"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,489.21335,11.44383)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion9560-8-0-5-0-9"><rect
+           id="rect9562-8-5-0-6-2"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara9564-9-2-48-8-0"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#008000;font-family:Arial;-inkscape-font-specification:Arial">+1.0</flowPara></flowRoot>    <g
+       id="g5689-6"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="matrix(0.31788348,0,0,0.31788348,296.03457,-683.1643)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1"
+         id="rect6327-37-2-2-1-7-89"
+         width="48.219894"
+         height="48.219894"
+         x="215.59096"
+         y="3125.7578"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)"
+         d="m 239.5302,3164.1641 0,-24.9215"
+         id="path6773-9-1-9-9-0-8-3-6-1-2"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <g
+       id="g5693-6"
+       transform="matrix(0.31788348,0,0,0.31788348,295.44815,-683.1643)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1"
+         id="rect6327-37-2-2-1-7-9-6"
+         width="48.219894"
+         height="48.219894"
+         x="307.04382"
+         y="3125.7578"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)"
+         d="m 331.15376,3164.1641 0,-24.9215"
+         id="path6773-9-1-9-9-0-8-3-6-1-4-4"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <g
+       id="g5697-95"
+       transform="matrix(0.31788348,0,0,0.31788348,296.05573,-683.1643)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1"
+         id="rect6327-37-2-2-1-7-7-0"
+         width="48.219894"
+         height="48.219894"
+         x="394.74066"
+         y="3125.7578"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)"
+         d="m 418.85061,3135.5714 0,24.9215"
+         id="path6773-9-1-9-9-0-8-3-6-1-7-4"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <g
+       id="g5701-8"
+       transform="matrix(0.31788348,0,0,0.31788348,296.24721,-683.1643)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1"
+         id="rect6327-37-2-2-1-7-77-7"
+         width="48.219894"
+         height="48.219894"
+         x="483.74643"
+         y="3125.7578"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)"
+         d="m 507.85637,3164.1641 0,-24.9215"
+         id="path6773-9-1-9-9-0-8-3-6-1-6-1"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <g
+       id="g5705-7"
+       transform="matrix(0.31788348,0,0,0.31788348,295.60654,-683.1643)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1"
+         id="rect6327-37-2-2-1-7-5-2"
+         width="48.219894"
+         height="48.219894"
+         x="575.37"
+         y="3125.7578"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)"
+         d="m 585.18361,3149.8678 24.9215,0"
+         id="path6773-9-1-9-9-0-8-3-6-1-63-7"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <g
+       id="g5709-2"
+       transform="matrix(0.31788348,0,0,0.31788348,296.63019,-683.1643)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1"
+         id="rect6327-37-2-2-1-7-2-2"
+         width="48.219894"
+         height="48.219894"
+         x="661.75793"
+         y="3125.7578"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)"
+         d="m 671.57155,3149.8678 24.9215,0"
+         id="path6773-9-1-9-9-0-8-3-6-1-9-61"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <g
+       id="g5713-0"
+       transform="matrix(0.31788348,0,0,0.31788348,296.03458,-683.1643)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1"
+         id="rect6327-37-2-2-1-7-8-6"
+         width="48.219894"
+         height="48.219894"
+         x="753.23975"
+         y="3125.7578"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)"
+         d="m 763.05337,3149.8678 24.9215,0"
+         id="path6773-9-1-9-9-0-8-3-6-1-5-1"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28385691,0,0,0.28336534,320.96865,57.25199)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot6554-4-7-2-0-3-09-5-8-5"
+       xml:space="preserve"><flowRegion
+         id="flowRegion6556-1-4-4-0-7-3-1-5-9"><rect
+           y="964.29407"
+           x="219.381"
+           height="47.576939"
+           width="1019.8954"
+           id="rect6558-79-5-7-6-5-6-1-7-4" /></flowRegion><flowPara
+         style="font-size:15.79397774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara6560-3-2-9-4-8-06-0-4-9">(-0.04x0.9<flowSpan
+   id="flowSpan5382-1-0"
+   style="font-size:73.3291626%;baseline-shift:super">0</flowSpan>) + (-0.04x0.9<flowSpan
+   id="flowSpan5386-8-9"
+   style="font-size:73.3291626%;baseline-shift:super">1</flowSpan>) + (-0.04x0.9<flowSpan
+   id="flowSpan5390-5-1"
+   style="font-size:73.3291626%;baseline-shift:super">2</flowSpan>) + (-0.04x0.9<flowSpan
+   id="flowSpan5394-9-7"
+   style="font-size:73.3291626%;baseline-shift:super">3</flowSpan>) + (-0.04x0.9<flowSpan
+   id="flowSpan5398-7-7"
+   style="font-size:73.3291626%;baseline-shift:super">4</flowSpan>) + (-0.04x0.9<flowSpan
+   id="flowSpan5402-5-1"
+   style="font-size:73.3291626%;baseline-shift:super">5</flowSpan>) + (+1.0x0.9<flowSpan
+   style="font-size:72.85461426%;baseline-shift:super"
+   id="flowSpan8247-1">6</flowSpan>)</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.68392509000000001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.36785007000000003, 0.68392503000000004;stroke-dashoffset:0"
+       id="rect6139"
+       width="18.482197"
+       height="34.913841"
+       x="362.83429"
+       y="292.32449"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
+       d="m 410.76602,357.4045 7.30913,0"
+       id="path8175"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1"
+       id="rect8177"
+       width="15.328308"
+       height="15.328308"
+       x="393.05231"
+       y="349.74042"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8179"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,331.97815,79.29401)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion8181"><rect
+           id="rect8183"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara8185"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">(1,2)</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:connector-curvature="0"
+       id="path8187"
+       d="m 439.25096,357.4045 7.30913,0"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1"
+       id="rect8189"
+       width="15.328308"
+       height="15.328308"
+       x="421.53726"
+       y="349.74042"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8191"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,360.46309,79.29401)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion8193"><rect
+           id="rect8195"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara8197"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">(1,3)</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,345.90782,67.44383)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot8199"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8201"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect8203" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara8205">-0.04</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:connector-curvature="0"
+       id="path8207"
+       d="m 467.73592,357.4045 7.30913,0"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       y="349.74042"
+       x="450.02222"
+       height="15.328308"
+       width="15.328308"
+       id="rect8209"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,388.94806,79.29401)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot8211"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8213"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect8215" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara8217">(1,2)</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,374.39278,67.44383)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot8219"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8221"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect8223" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara8225">-0.04</flowPara></flowRoot>    <path
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
+       d="m 496.22086,357.4045 7.30913,0"
+       id="path8227"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       y="349.74042"
+       x="478.50714"
+       height="15.328308"
+       width="15.328308"
+       id="rect8229"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,417.43298,79.29401)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot8231"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8233"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect8235" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara8237">(1,3)</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8239"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,402.8777,67.44383)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion8241"><rect
+           id="rect8243"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara8245"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial">-0.04</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:connector-curvature="0"
+       id="path8247"
+       d="m 524.70581,357.4045 7.30914,0"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1"
+       id="rect8249"
+       width="15.328308"
+       height="15.328308"
+       x="506.9921"
+       y="349.74042"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8251"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,445.91795,79.29401)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion8253"><rect
+           id="rect8255"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara8257"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">(2,3)</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,431.36267,67.44383)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot8259"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8261"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect8263" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara8265">-0.04</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:connector-curvature="0"
+       id="path8267"
+       d="m 553.19075,357.4045 7.30914,0"
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       y="349.74042"
+       x="535.47699"
+       height="15.328308"
+       width="15.328308"
+       id="rect8269"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,474.40288,79.29401)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot8271"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8273"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect8275" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara8277">(3,3)</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,459.84761,67.44383)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot8279"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8281"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect8283" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara8285">-0.04</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       y="349.74042"
+       x="563.96198"
+       height="15.328308"
+       width="15.328308"
+       id="rect8287"
+       style="fill:#008000;fill-opacity:0.39215686;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,502.88783,79.29401)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot8289"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8291"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect8293" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara8295">(4,3)</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28371747,0,0,0.28371747,489.21335,67.44383)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot8297"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8299"><rect
+           y="964.29407"
+           x="219.381"
+           height="78.584236"
+           width="108.87191"
+           id="rect8301" /></flowRegion><flowPara
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#008000;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara8303">+1.0</flowPara></flowRoot>    <g
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.31788348,0,0,0.31788348,295.44815,-627.1643)"
+       id="g8305">
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         y="3125.7578"
+         x="307.04382"
+         height="48.219894"
+         width="48.219894"
+         id="rect8307"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:connector-curvature="0"
+         id="path8309"
+         d="m 331.15376,3164.1641 0,-24.9215"
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)" />
+    </g>
+    <g
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.31788348,0,0,0.31788348,296.05573,-627.1643)"
+       id="g8311">
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         y="3125.7578"
+         x="394.74066"
+         height="48.219894"
+         width="48.219894"
+         id="rect8313"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:connector-curvature="0"
+         id="path8315"
+         d="m 418.85061,3135.5714 0,24.9215"
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)" />
+    </g>
+    <g
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.31788348,0,0,0.31788348,296.24721,-627.1643)"
+       id="g8317">
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         y="3125.7578"
+         x="483.74643"
+         height="48.219894"
+         width="48.219894"
+         id="rect8319"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:connector-curvature="0"
+         id="path8321"
+         d="m 507.85637,3164.1641 0,-24.9215"
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)" />
+    </g>
+    <g
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.31788348,0,0,0.31788348,295.60654,-627.1643)"
+       id="g8323">
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         y="3125.7578"
+         x="575.37"
+         height="48.219894"
+         width="48.219894"
+         id="rect8325"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:connector-curvature="0"
+         id="path8327"
+         d="m 585.18361,3149.8678 24.9215,0"
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)" />
+    </g>
+    <g
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.31788348,0,0,0.31788348,296.63019,-627.1643)"
+       id="g8329">
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         y="3125.7578"
+         x="661.75793"
+         height="48.219894"
+         width="48.219894"
+         id="rect8331"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:connector-curvature="0"
+         id="path8333"
+         d="m 671.57155,3149.8678 24.9215,0"
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)" />
+    </g>
+    <g
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.31788348,0,0,0.31788348,296.03458,-627.1643)"
+       id="g8335">
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         y="3125.7578"
+         x="753.23975"
+         height="48.219894"
+         width="48.219894"
+         id="rect8337"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:connector-curvature="0"
+         id="path8339"
+         d="m 763.05337,3149.8678 24.9215,0"
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)" />
+    </g>
+    <path
+       style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:1.0137229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.01372289, 1.01372289;stroke-dashoffset:0;marker-end:url(#Arrow1Sendk)"
+       d="m 553.19075,419.4045 7.30914,0"
+       id="path8413"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1"
+       id="rect8415"
+       width="15.328308"
+       height="15.328308"
+       x="535.47699"
+       y="411.74042"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8417"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,474.40288,141.29401)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion8419"><rect
+           id="rect8421"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara8423"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">(3,3)</flowPara></flowRoot>    <rect
+       style="fill:#008000;fill-opacity:0.39215686;stroke:#000000;stroke-width:0.28371748;stroke-opacity:1"
+       id="rect8433"
+       width="15.328308"
+       height="15.328308"
+       x="563.96198"
+       y="411.74042"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8435"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,502.88783,141.29401)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion8437"><rect
+           id="rect8439"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara8441"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">(4,3)</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8443"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28371747,0,0,0.28371747,489.21335,129.44383)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion8445"><rect
+           id="rect8447"
+           width="108.87191"
+           height="78.584236"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara8449"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#008000;font-family:Arial;-inkscape-font-specification:Arial">+1.0</flowPara></flowRoot>    <g
+       id="g8475"
+       transform="matrix(0.31788348,0,0,0.31788348,296.03458,-565.1643)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.89252037;stroke-opacity:1"
+         id="rect8477"
+         width="48.219894"
+         height="48.219894"
+         x="753.23975"
+         y="3125.7578"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:#550000;fill-opacity:1;stroke:#550000;stroke-width:3.96881604;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Sendk)"
+         d="m 763.05337,3149.8678 24.9215,0"
+         id="path8479"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_state_action_table.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8481"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.28385691,0,0,0.28336534,349.60168,113.76399)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion8483"><rect
+           id="rect8485"
+           width="1019.8954"
+           height="47.576939"
+           x="219.381"
+           y="964.29407" /></flowRegion><flowPara
+         id="flowPara8487"
+         style="font-size:15.79397774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;font-family:Arial;-inkscape-font-specification:Arial">(-0.04x0.9<flowSpan
+   style="font-size:73.3291626%;baseline-shift:super"
+   id="flowSpan8491">0</flowSpan>) + (-0.04x0.9<flowSpan
+   style="font-size:73.3291626%;baseline-shift:super"
+   id="flowSpan8493">1</flowSpan>) + (-0.04x0.9<flowSpan
+   style="font-size:73.3291626%;baseline-shift:super"
+   id="flowSpan8495">2</flowSpan>) + (-0.04x0.9<flowSpan
+   style="font-size:73.3291626%;baseline-shift:super"
+   id="flowSpan8497">3</flowSpan>) + (-0.04x0.9<flowSpan
+   style="font-size:73.3291626%;baseline-shift:super"
+   id="flowSpan8499">4</flowSpan>) + (+1.0x0.9<flowSpan
+   id="flowSpan8501"
+   style="font-size:72.85461426%;baseline-shift:super">5</flowSpan>)</flowPara></flowRoot>    <rect
+       y="348.06393"
+       x="391.47537"
+       height="34.913841"
+       width="18.482197"
+       id="rect8503"
+       style="fill:none;stroke:#000000;stroke-width:0.68392509000000001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.36785007000000003, 0.68392503000000004;stroke-dashoffset:0"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.28385691,0,0,0.28336534,492.76679,176.08554)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot8507"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8509"><rect
+           y="964.29407"
+           x="219.381"
+           height="47.576939"
+           width="1019.8954"
+           id="rect8511" /></flowRegion><flowPara
+         style="font-size:15.79397774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara8513">(+1.0x0.9<flowSpan
+   style="font-size:72.85461426%;baseline-shift:super"
+   id="flowSpan8525">0</flowSpan>)</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.68392509;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.36785007, 0.68392503;stroke-dashoffset:0"
+       id="rect8527"
+       width="18.482197"
+       height="34.913841"
+       x="533.90009"
+       y="410.332"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8529"
+       style="font-size:35.25955963px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.33277037,0,0,0.33219409,396.72838,72.500652)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion8531"><rect
+           id="rect8533"
+           width="1019.8954"
+           height="47.576939"
+           x="219.381"
+           y="964.29407"
+           style="font-size:35.25955963px" /></flowRegion><flowPara
+         id="flowPara8535"
+         style="font-size:35.25955963px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;font-family:Arial;-inkscape-font-specification:Arial">...</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.33277037,0,0,0.33219409,406.95012,76.632865)"
+       style="font-size:35.25955963px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot8539"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8541"><rect
+           style="font-size:35.25955963px"
+           y="964.29407"
+           x="219.381"
+           height="47.576939"
+           width="1019.8954"
+           id="rect8543" /></flowRegion><flowPara
+         style="font-size:35.25955963px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara8545">...</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8547"
+       style="font-size:35.25955963px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.33277037,0,0,0.33219409,417.17186,80.765067)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion8549"><rect
+           id="rect8551"
+           width="1019.8954"
+           height="47.576939"
+           x="219.381"
+           y="964.29407"
+           style="font-size:35.25955963px" /></flowRegion><flowPara
+         id="flowPara8553"
+         style="font-size:35.25955963px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;font-family:Arial;-inkscape-font-specification:Arial">...</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       transform="matrix(0.33277037,0,0,0.33219409,427.39363,84.897222)"
+       style="font-size:35.25955963px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       id="flowRoot8555"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8557"><rect
+           style="font-size:35.25955963px"
+           y="964.29407"
+           x="219.381"
+           height="47.576939"
+           width="1019.8954"
+           id="rect8559" /></flowRegion><flowPara
+         style="font-size:35.25955963px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;font-family:Arial;-inkscape-font-specification:Arial"
+         id="flowPara8561">...</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8563"
+       style="font-size:35.25955963px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+       transform="matrix(0.33277037,0,0,0.33219409,437.61537,89.029437)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion8565"><rect
+           id="rect8567"
+           width="1019.8954"
+           height="47.576939"
+           x="219.381"
+           y="964.29407"
+           style="font-size:35.25955963px" /></flowRegion><flowPara
+         id="flowPara8569"
+         style="font-size:35.25955963px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;font-family:Arial;-inkscape-font-specification:Arial">...</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
+       d="m 380.35825,334.00638 -8.58181,0 0,-5.21039"
+       id="path8571"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path10649"
+       d="m 409.47512,390.70765 -8.58181,0 0,-5.21039"
+       style="fill:none;stroke:#000000;stroke-width:0.70866144;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.70866144;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
+       d="m 551.99453,452.61931 -8.58181,0 0,-5.21039"
+       id="path10651"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_active_mc_control_visits_overview.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       y="408.93109"
+       x="22.92588"
+       height="17.525377"
+       width="17.525379"
+       id="rect8503-7"
+       style="fill:none;stroke:#000000;stroke-width:0.54548764;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.09097536, 0.54548768;stroke-dashoffset:0"
+       inkscape:export-filename="/home/massimiliano/blog/images/reinforcement_learning_model_free_return_first_episode.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
   </g>
 </svg>
