@@ -37,22 +37,22 @@ def softmax(x):
     return np.exp(x - np.max(x)) / np.sum(np.exp(x - np.max(x)))
 
 def update_critic(utility_matrix, observation, new_observation, 
-                   reward, alpha, gamma):
+                   reward, alpha, gamma, done):
     '''Return the updated utility matrix
 
     @param utility_matrix the matrix before the update
     @param observation the state obsrved at t
     @param new_observation the state observed at t+1
     @param reward the reward observed after the action
-    @param alpha the ste size (learning rate)
+    @param alpha the step size (learning rate)
     @param gamma the discount factor
     @return the updated utility matrix
     @return the estimation error delta
     '''
     u = utility_matrix[observation[0], observation[1]]
     u_t1 = utility_matrix[new_observation[0], new_observation[1]]
-    delta = reward + gamma * u_t1 - u
-    utility_matrix[observation[0], observation[1]] += alpha * (delta)
+    delta = reward + ((gamma * u_t1) - u)
+    utility_matrix[observation[0], observation[1]] += alpha * delta
     return utility_matrix, delta
 
 def update_actor(state_action_matrix, observation, action, delta, beta_matrix=None):
@@ -129,11 +129,12 @@ def main():
             #Move one step in the environment and get obs and reward
             new_observation, reward, done = env.step(action)
             utility_matrix, delta = update_critic(utility_matrix, observation, 
-                                                  new_observation, reward, alpha, gamma)
+                                                  new_observation, reward, alpha, gamma, done)
             state_action_matrix = update_actor(state_action_matrix, observation, 
                                                action, delta, beta_matrix=None)
             observation = new_observation
             if done: break
+            
 
         if(epoch % print_epoch == 0):
             print("")
