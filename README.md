@@ -35,7 +35,7 @@ Environments
 The folder called `environments` contains all the environments used in the series. Differently from other libraries (such as OpenAI Gym) the environments are stand-alone python files that do no require any installation procedure. You can use an environment copying the file in the same folder of your project, and loading it as: `from environmentname import EnvironmentName`. The environment can be used following the same convention adopted by OpenAI Gym:
 
 ```python
-from random import randint '#to generate random integers
+from random import randint #to generate random integers
 from inverted_pendulum import InvertedPendulum #importing the environment
 
 #Generating the environment
@@ -52,17 +52,17 @@ for step in range(100):
 env.render(file_path='./inverted_pendulum.gif', mode='gif')
 ```
 
-The snippet above generate an inverted pendulum environment. The pole is controlled through three actions (0=left, 1=noop, 2=right) that are randomly generated. The maximum number of steps allowed is 100, that with `delta_t=0.1` corresponds to 10 seconds. The episode can finish in advance if the pole falls down leading to `done = True`. Examples for each environments are available [here](./src/6). The following is a description of the available environments with a direct link to the python code:
+The snippet above generate an inverted pendulum environment. The pole is controlled through three actions (0=left, 1=noop, 2=right) that are randomly generated through the `randint()` method. The maximum number of steps allowed is 100, that with `delta_t=0.1` corresponds to 10 seconds. The episode can finish in advance if the pole falls down leading to `done = True`. Examples for each environments are available [here](./src/6). The following is a description of the available environments with a direct link to the python code:
 
 - **grid world**: a simple grid-world which includes obstacles, walls, positive and negative rewards. An agent can move in the environment using four actions (0=forward, 1=right, 2=backward, 3=left). It is possible to setup the dimension of the world, the location of the obstacles, and the movement noise [[code]](./environments/gridworld.py) 
 
 - **multi-armed bandit**: implementation of a [multi-armed](https://en.wikipedia.org/wiki/Multi-armed_bandit) environment that can be initialized with a specific number of arms. Rewards are binary (1 or 0) and are given for each arm with a pre-defined probability. This world does not have a `reset()` method because for definition the episode only has a single step [[code]](./environments/multi_armed_bandit.py)
 
-- **inverted pendulum**: it is an implementation of the [classic problem](https://en.wikipedia.org/wiki/Inverted_pendulum) widely used in control theory. The pendulum can be initialized with a specific pole mass, cart mass, and pole length. There are three possible actions (0=left, 1=noop, 2=right). A method called `render()` allows saving a GIF or an MP4 realized in Matplotlib [[code]](./environments/inverted_pendulum.py)
+- **inverted pendulum**: it is an implementation of the [classic problem](https://en.wikipedia.org/wiki/Inverted_pendulum) widely used in control theory. The pendulum can be initialized with a specific pole mass, cart mass, and pole length. There are three possible actions (0=left, 1=noop, 2=right). A method called `render()` allows saving a GIF or an MP4 of the last episode using Matplotlib [[code]](./environments/inverted_pendulum.py)
 
 - **mountain car**: implementation of the [classic problem](https://en.wikipedia.org/wiki/Mountain_car_problem) which is a widely used benchmark. The environment is initialized with a specific mass for the car, friction for the soil, and delta time. There are only three actions available (0=left, 1=noop, 2=right). Rendering is possible and allows saving a GIF or video using Matplotlib animations [[code]](./environments/mountain_car.py)
 
-- **drone landing**: a drone has to land on a pad at the centre of a cubic room, moving in six possible directions (0=forward, 1=left, 2=backward, 3=right, 4=up, 5=down). Positive reward of +1 is obtained if the drone touch the pad, whereas a negative reward of -1 is given in case of a wrong landing. Rendering is allowed and the file is stored as GIF or MP4 [[code]](./environments/drone_landing.py)
+- **drone landing**: a drone has to land on a pad at the centre of a cubic room, moving in six possible directions (0=forward, 1=left, 2=backward, 3=right, 4=up, 5=down). The dimension of the world can be declared during the initialization. Positive reward of +1 is obtained if the drone touch the pad, whereas a negative reward of -1 is given in case of a wrong landing. Rendering is allowed and the file is stored as GIF or MP4 [[code]](./environments/drone_landing.py)
 
 
 
