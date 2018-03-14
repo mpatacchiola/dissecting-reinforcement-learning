@@ -32,7 +32,7 @@ Posts Content
 Environments
 -------------
 
-The folder called `environments` contains all the environments used in the series. Differently from other libraries (such as OpenAI Gym) the environments are stand-alone python files that do no require any installation procedure. You can use an environment copying the file in the same folder of your project, and loading it as: `from environmentname import EnvironmentName`. The environment can be used following the same convention adopted by OpenAI Gym:
+The folder called `environments` contains all the environments used in the series. Differently from other libraries (such as OpenAI Gym) the environments are stand-alone python files that do no require any installation procedure. You can use an environment copying the file in the same folder of your project, and then loading it from a Python script: `from environmentname import EnvironmentName`. The environment can be used following the same convention adopted by OpenAI Gym:
 
 ```python
 from random import randint #to generate random integers
@@ -46,7 +46,7 @@ observation = env.reset(exploring_starts=True)
 for step in range(100):
     action = randint(0, 2) #generate a random integer/action
     observation, reward, done = env.step(action) #one step in the environment
-    if done == True: return #exit if the episode is finished
+    if done == True: break #exit if the episode is finished
 
 #Saving the episode in a GIF
 env.render(file_path='./inverted_pendulum.gif', mode='gif')
