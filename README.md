@@ -93,7 +93,7 @@ Resources
 
 - **Reinforcement learning: An introduction.** Sutton, R. S., & Barto, A. G. (1998). Cambridge: MIT press. [[html]](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
 
-- **Reinforcement learning: An introduction (second edition).** Sutton, R. S., & Barto, A. G. (in progress). [[pdf]](http://incompleteideas.net/sutton/book/bookdraft2017june19.pdf)
+- **Reinforcement learning: An introduction (second edition).** Sutton, R. S., & Barto, A. G. (draft April 2018). [[pdf]](http://incompleteideas.net/book/the-book-2nd.html)
 
 - **Reinforcement Learning in a Nutshell.** Heidrich-Meisner, V., Lauer, M., Igel, C., & Riedmiller, M. A. (2007) [[pdf]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.9557&rep=rep1&type=pdf)
 
