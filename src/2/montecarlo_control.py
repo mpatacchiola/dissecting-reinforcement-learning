@@ -154,8 +154,8 @@ def main():
         for visit in episode_list:
             observation = visit[0]
             action = visit[1]
-            col = observation[1] + (observation[0]*4)
-            row = action
+            col = int(observation[1] + (observation[0]*4))
+            row = int(action)
             if(checkup_matrix[row, col] == 0):
                 return_value = get_return(episode_list[counter:], gamma)
                 running_mean_matrix[row, col] += 1
