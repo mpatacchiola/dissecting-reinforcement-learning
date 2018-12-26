@@ -47,7 +47,7 @@ def update_state_action(state_action_matrix, visit_counter_matrix, observation, 
     col = observation[1] + (observation[0]*4)
     q = state_action_matrix[action, col]
     col_t1 = new_observation[1] + (new_observation[0]*4)
-    q_t1 = state_action_matrix[new_action ,col_t1]
+    q_t1 = state_action_matrix[int(new_action) ,col_t1]
     #Calculate alpha based on how many time it
     #has been visited
     alpha_counted = 1.0 / (1.0 + visit_counter_matrix[action, col])
