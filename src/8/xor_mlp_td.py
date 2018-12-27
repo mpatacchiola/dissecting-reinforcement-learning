@@ -80,7 +80,6 @@ def update(my_mlp, new_observation, reward, learning_rate, gamma, done):
     @param x the feauture vector obsrved at t
     @param x_t1 the feauture vector observed at t+1
     @param reward the reward observed after the action
-    @param alpha the ste size (learning rate)
     @param gamma the discount factor
     @param done boolean True if the state is terminal
     @return w_t1 the weights vector at t+1
@@ -89,15 +88,13 @@ def update(my_mlp, new_observation, reward, learning_rate, gamma, done):
         x = np.array(new_observation, dtype=np.float32)
         target = np.array([reward], dtype=np.float32) 
         #print(target)
-        my_mlp.train(x, target, learning_rate)
+        error = my_mlp.train(x, target, learning_rate)
     else:
         x = np.array(new_observation, dtype=np.float32)  
         target = np.array((reward + (gamma * my_mlp.forward(x))), dtype=np.float32)
         #print target
-        my_mlp.train(x, target, learning_rate)
-        #w_t1 = w + alpha * ((reward + (gamma*(np.dot(x_t1,w))) - np.dot(x,w)) * x)
-    
-    return my_mlp
+        error = my_mlp.train(x, target, learning_rate)  
+    return my_mlp, error
 
 
 def print_utility(my_mlp, tot_rows, tot_cols, decimal=2, flip=True):
@@ -294,28 +291,24 @@ def main():
     my_mlp = MLP(tot_inputs=2, tot_hidden=3, tot_outputs=1, activation="tanh")
     learning_rate = 0.1
     gamma = 0.9
-    alpha_start = 0.1
-    alpha_stop = 0.0000001 #constant step size
     tot_epoch = 10001
-    alpha_array = np.linspace(alpha_start, alpha_stop, tot_epoch)
     print_epoch = 100
 
     for epoch in range(tot_epoch):
-        alpha = alpha_array[epoch] #the learning rate is linearly decreased
         #XOR-world episode
         observation = env.reset(exploring_starts=True)
         #The episode starts here
         for step in range(1000):
             action = np.random.randint(0,4)
             new_observation, reward, done = env.step(action) #move in the world and get the state and reward
-            my_mlp = update(my_mlp, new_observation, reward, learning_rate, gamma, done)
+            my_mlp, error = update(my_mlp, new_observation, reward, learning_rate, gamma, done)
             observation = new_observation
             if done: break
-        if(epoch % print_epoch == 0):
+        if(epoch % print_epoch == 0 and epoch!=0):
             print("")
             print("Epoch: " + str(epoch+1))
             print("Tot steps: " + str(step))
-            print("Alpha: " + str(alpha))
+            print("Error: " + str(error))
 
             print_utility(my_mlp, tot_rows=5, tot_cols=5)
     print("Generating plot, please wait...")

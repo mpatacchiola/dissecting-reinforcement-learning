@@ -31,10 +31,11 @@ class MLP():
     def __init__(self, tot_inputs, tot_hidden, tot_outputs, activation="sigmoid"):
         '''Init an MLP object
 
-        Defines the matrices associated with the MLP.
-        @param: tot_inputs
-        @param: tot_hidden
-        @param: tot_outputs
+        Defines the weight matrices associated with the MLP.
+        @param tot_inputs: total number of inputs
+        @param tot_hidden: total hidden units
+        @param tot_outputs: total number of outputs
+        @param activation: the activation function [sigmoid, tanh]
         '''
         import numpy as np
         
@@ -75,9 +76,11 @@ class MLP():
             self.y = self._sigmoid(self.z2)
         elif(self.activation=="tanh"):
             self.y = self._tanh(self.z2)
+        if(verbose): print("z1: " + str(self.z1))
         if(verbose): print("h: " + str(self.h))
         if(verbose): print("W1: " + str(self.W1))
         if(verbose): print("W2: " + str(self.W2))
+        if(verbose): print("z2: " + str(self.z2))
         if(verbose): print("y: " + str(self.y))
         return self.y
 
@@ -87,17 +90,16 @@ class MLP():
     def _tanh_derivative(self, z):
         return 1 - np.square(np.tanh(z))
        
-    def backward(self, target, learning_rate=0.01, verbose=False):
+    def backward(self, y, target, verbose=False):
         '''Backward pass in the network
   
         @param target: the value of taget vector (same shape of output)
-        @param learning_rate: the learning rate (default 0.01)
         @param verbose: print the gradient vectors
-        @return: two matrices dW1 and dW2
+        @return: the gradient vectors for the two weigh matrices
         '''
-        if(self.y.shape[0]!=target.shape[0]): raise ValueError("[ERROR] The size of target is wrong!")
+        if(y.shape!=target.shape): raise ValueError("[ERROR] The size of target is wrong!")
         #gathering all the partial derivatives
-        dE_dy = -(target - self.y) #shape [tot_outputs]
+        dE_dy = -(target - y) #shape [tot_outputs]
         if(self.activation=="sigmoid"):
             dy_dz2 = self._sigmoid_derivative(self.z2)
         elif(self.activation=="tanh"):
@@ -120,9 +122,7 @@ class MLP():
                         np.expand_dims(dz1_dW1,axis=0)).T #[tot_hidden] * [tot_inputs+1]
         if(verbose): print("dE_dW1: " + str(dE_dW1))
         if(verbose): print("dE_dW2: " + str(dE_dW2))
-        #update the weights
-        self.W2 = self.W2 - (learning_rate * dE_dW2) 
-        self.W1 = self.W1 - (learning_rate * dE_dW1)
+        return dE_dW1, dE_dW2
 
     def train(self, x, target, learning_rate=0.1):
         '''train the network
@@ -134,7 +134,11 @@ class MLP():
         @return: the error RMSE
         '''
         y = self.forward(x)
-        self.backward(target, learning_rate)
+        dE_dW1, dE_dW2 = self.backward(y, target)
+        #update the weights
+        self.W2 = self.W2 - (learning_rate * dE_dW2) 
+        self.W1 = self.W1 - (learning_rate * dE_dW1)
+        #estimate the error
         error = 0.5 * (target - y)**2
         return error
 
@@ -146,8 +150,8 @@ class MLP():
 #       print("[step " + str(i) + "] y=" + str(my_mlp.y))
 #       my_mlp.backward(target=np.array([-0.75, 0.25]), learning_rate=0.1, verbose=True)
 #       print
-'''
-       
+
+'''  
 def main():
     my_mlp = MLP(tot_inputs=2, tot_hidden=2, tot_outputs=2)
     my_mlp.W1 = np.array([[0.15, 0.20],
@@ -162,7 +166,7 @@ def main():
     print(y)
     
     my_mlp.backward(target=np.array([0.01, 0.99]), learning_rate=0.1, verbose=True)
-'''   
+'''
        
        
 
