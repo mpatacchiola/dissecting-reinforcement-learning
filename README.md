@@ -28,6 +28,7 @@ Posts Content
 
 7. [[Post seven]](https://mpatacchiola.github.io/blog/2017/12/11/dissecting-reinforcement-learning-7.html) [[code]](./src/7) [[pdf]](./pdf) - Function approximation, Intuition, Linear approximator, Applications, High-order approximators.
 
+8. [[Post eight]](https://mpatacchiola.github.io/blog/2018/12/28/dissecting-reinforcement-learning-8.html) [[code]](./src/8) [[pdf]](./pdf) - Non-linear function approximation, Perceptron, Multi Layer Perceptron, Applications, Policy Gradient.
 
 Environments
 -------------
@@ -79,7 +80,9 @@ Resources
 
 - [[RL toolkit]](http://incompleteideas.net/rlai.cs.ualberta.ca/RLAI/RLtoolkit/RLtoolkit1.0.html) - Collection of utilities and demos developed by the RLAI group which may be useful for anyone trying to learn, teach or use reinforcement learning (by Richard Sutton).
 
-- [[setosa blog]](http://setosa.io/blog/2014/07/26/markov-chains/index.html) - A useful visual explanation of Markov chains.  
+- [[setosa blog]](http://setosa.io/blog/2014/07/26/markov-chains/index.html) - A useful visual explanation of Markov chains.
+
+- [[Tensorflow playground]](https://playground.tensorflow.org) - Try different MLP architectures and datasets on the browser.
 
 **Books and Articles:**
 
@@ -93,7 +96,7 @@ Resources
 
 - **Reinforcement learning: An introduction.** Sutton, R. S., & Barto, A. G. (1998). Cambridge: MIT press. [[html]](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
 
-- **Reinforcement learning: An introduction (second edition).** Sutton, R. S., & Barto, A. G. (draft April 2018). [[pdf]](http://incompleteideas.net/book/the-book-2nd.html)
+- **Reinforcement learning: An introduction (second edition).** Sutton, R. S., & Barto, A. G. (draft April 2018). [TODO]
 
 - **Reinforcement Learning in a Nutshell.** Heidrich-Meisner, V., Lauer, M., Igel, C., & Riedmiller, M. A. (2007) [[pdf]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.9557&rep=rep1&type=pdf)
 

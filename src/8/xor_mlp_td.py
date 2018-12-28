@@ -288,7 +288,7 @@ def subplot(my_mlp, world_size, filename="figure.png"):
 def main():
 
     env = init_env()
-    my_mlp = MLP(tot_inputs=2, tot_hidden=3, tot_outputs=1, activation="tanh")
+    my_mlp = MLP(tot_inputs=2, tot_hidden=2, tot_outputs=1, activation="tanh")
     learning_rate = 0.1
     gamma = 0.9
     tot_epoch = 10001
