@@ -126,7 +126,11 @@ class MLP():
 
     def train(self, x, target, learning_rate=0.1):
         '''train the network
-  
+
+        TODO: this method can be expanded to include mini-batch training.
+        One way to do it is to pass a list of x-target tuple and accumulate
+        a list of gradients using the backward() method. Then the gradients
+        can be averaged and applied to the matrices W1 and W2.
         @param x: the input vector
         @param target: the target value vector
         @param learning_rate: the learning rate (default 0.01)
@@ -142,31 +146,17 @@ class MLP():
         error = 0.5 * (target - y)**2
         return error
 
+#Simple test script to check the class
 #def main():
-#    my_mlp = MLP(tot_inputs=2, tot_hidden=3, tot_outputs=2, activation="tanh")
-#    
-#    for i in range(10000):
-#       my_mlp.forward(np.array([1.0, 1.0]), verbose=True)
+#    my_mlp = MLP(tot_inputs=6, tot_hidden=64, tot_outputs=3, activation="tanh")  
+#    x = np.array([1.0, 1.0, 1.0, 1.0, 1.0, 1.0])
+#    target = np.array([-0.75, 0.25, 0.10])
+#    for i in range(500):
+#       y = my_mlp.forward(x, verbose=False)
 #       print("[step " + str(i) + "] y=" + str(my_mlp.y))
-#       my_mlp.backward(target=np.array([-0.75, 0.25]), learning_rate=0.1, verbose=True)
+#       my_mlp.backward(y, target, verbose=False)
+#       my_mlp.train(x, target, learning_rate=0.1)
 #       print
-
-'''  
-def main():
-    my_mlp = MLP(tot_inputs=2, tot_hidden=2, tot_outputs=2)
-    my_mlp.W1 = np.array([[0.15, 0.20],
-                          [0.25, 0.30],
-                          [0.35, 0.35]], dtype=np.float32)
-                          
-    my_mlp.W2 = np.array([[0.40, 0.45],
-                          [0.50, 0.55],
-                          [0.60, 0.60]], dtype=np.float32)
-                          
-    y = my_mlp.forward(np.array([0.05, 0.1]), verbose=True)
-    print(y)
-    
-    my_mlp.backward(target=np.array([0.01, 0.99]), learning_rate=0.1, verbose=True)
-'''
        
        
 
