@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #MIT License
-#Copyright (c) 2017 Massimiliano Patacchiola
+#Copyright (c) 2018 Massimiliano Patacchiola
 #
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -22,7 +22,8 @@
 #SOFTWARE.
 
 #Simple class for a Multi-Layer Perceptron (MLP)
-#It is based on numpy calls and completely vectorized
+#It is based on numpy calls and completely vectorized.
+#The current version does not implement mini-batch training.
 
 import numpy as np
 
@@ -37,8 +38,6 @@ class MLP():
         @param tot_outputs: total number of outputs
         @param activation: the activation function [sigmoid, tanh]
         '''
-        import numpy as np
-        
         if(activation!="sigmoid" and  activation!="tanh"):
             raise ValueError("[ERROR] The activation function " 
                              + str(activation) + " does not exist!")
@@ -60,8 +59,8 @@ class MLP():
 
         Forward pass via dot product
         @param x: the input vector (must have shape==tot_inputs)
-        @param verbose: print h, W1, W2, and y
-        @return: the output of the network
+        @param verbose: print z1, h, z2, y, W1, W2 (useful for debug)
+        @return: y the output of the network
         '''
         if(x.shape[0]!=self.tot_inputs): raise ValueError("[ERROR] The size of x is wrong!")
         self.x = np.hstack([x, np.array([1.0])]) #add the bias unit
@@ -78,10 +77,10 @@ class MLP():
             self.y = self._tanh(self.z2)
         if(verbose): print("z1: " + str(self.z1))
         if(verbose): print("h: " + str(self.h))
-        if(verbose): print("W1: " + str(self.W1))
-        if(verbose): print("W2: " + str(self.W2))
         if(verbose): print("z2: " + str(self.z2))
         if(verbose): print("y: " + str(self.y))
+        if(verbose): print("W1: " + str(self.W1))
+        if(verbose): print("W2: " + str(self.W2))
         return self.y
 
     def _sigmoid_derivative(self, z):
@@ -92,7 +91,8 @@ class MLP():
        
     def backward(self, y, target, verbose=False):
         '''Backward pass in the network
-  
+
+        @param y: the output of the network obtained with forward()  
         @param target: the value of taget vector (same shape of output)
         @param verbose: print the gradient vectors
         @return: the gradient vectors for the two weigh matrices
@@ -125,17 +125,16 @@ class MLP():
         return dE_dW1, dE_dW2
 
     def train(self, x, target, learning_rate=0.1):
-        '''train the network
+        '''train the network updating the weight matrices
 
         TODO: this method can be expanded to include mini-batch training.
         One way to do it is to pass a list of x-target tuple and accumulate
         a list of gradients using the backward() method. Then the gradients
         can be averaged and applied to the matrices W1 and W2.
         @param x: the input vector
-        @param target: the target value vector
-        @param learning_rate: the learning rate (default 0.01)
-        @param verbose: print the gradient vectors
-        @return: the error RMSE
+        @param target: the target vector
+        @param learning_rate: the learning rate (default 0.1)
+        @return: the error (MSE)
         '''
         y = self.forward(x)
         dE_dW1, dE_dW2 = self.backward(y, target)
