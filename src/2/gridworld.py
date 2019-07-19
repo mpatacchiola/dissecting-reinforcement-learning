@@ -121,7 +121,7 @@ class GridWorld:
                     elif(self.state_matrix[row, col] == +1): row_string += ' * '
             row_string += '\n'
             graph += row_string 
-        print graph            
+        print (graph)            
 
     def reset(self, exploring_starts=False):
         ''' Set the position of the robot in the bottom left corner.
