@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # MIT License
-# Copyright (c) 2017 Massimiliano Patacchiola
+# Copyright (c) 2019 Massimiliano Patacchiola
 # https://mpatacchiola.github.io/blog/
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -60,6 +60,8 @@ class DroneVisualLanding:
             raise ValueError("[ERROR] drone_visual_landing.py world_size must be an odd positive integer >=3.")
         if(tile_size<8):
             raise ValueError("[ERROR] drone_visual_landing.py tile_size must be a positive integer >=8.")
+        self.actions_dict = {0:"forward", 1:"left", 2:"backward", 3:"right", 4:"up", 
+                             5:"down", 6:"rotate-cw", 7:"rotate-ccw"}
         self.position_list = list()
         self.world_size = world_size
         self.tile_size = tile_size
@@ -131,15 +133,17 @@ class DroneVisualLanding:
         #get a random patch
         idx = np.random.randint(0, len(self.patch_list))
         patch_path = self.patch_list[idx]
-        img = Image.open(patch_path).convert('L')
+        img = Image.open(patch_path)#.convert('L')
         img = img.resize([self.tile_size, self.tile_size], Image.ANTIALIAS)
-        patch = np.array(img, dtype=np.uint8)
+        patch = np.array(img, dtype=np.uint8)[:,:,0]
+        #patch = np.mean(patch, axis=2)
         #get a random landmark
         idx = np.random.randint(0, len(self.landmark_list))
         landmark_path = self.landmark_list[idx]
-        img = Image.open(landmark_path).convert('L')       
+        img = Image.open(landmark_path)#.convert('L')       
         img = img.resize([self.tile_size, self.tile_size], Image.ANTIALIAS)
-        landmark = np.array(img, dtype=np.uint8)
+        landmark = np.array(img, dtype=np.uint8)[:,:,0]
+        #landmark = np.mean(landmark, axis=2)
         #generate the floor
         side = ((self.world_size*2)+1)
         floor_row = np.repeat(patch, repeats=side, axis=1)
@@ -159,12 +163,14 @@ class DroneVisualLanding:
         #estimate the view submatrix based on current position
         fov = int(self.position_z * self.tile_size)
         if(fov==0): fov=1
-        start_row = self.position_y + int(self.world_size/2)
-        end_row = start_row + (self.tile_size * fov)
-        start_col = self.position_x + int(self.world_size/2)
-        end_col = start_col + (self.tile_size * fov)
+        center_row = (self.position_y * self.tile_size) + int(self.world_size/2)
+        start_row = center_row - (self.tile_size * fov)
+        end_row = center_row + (self.tile_size * fov)
+        center_col = (self.position_x * self.tile_size) + int(self.world_size/2)
+        start_col = center_col - (self.tile_size * fov)
+        end_col = center_col + (self.tile_size * fov)
         #get the state stack
-        state = self.floor[start_row:end_row, start_col:end_col]
+        state = self.floor[start_row:end_row, start_col:end_col].copy()
         #rotate the patch based on the rotation parameter
         if(self.position_r!=0): state = np.rot90(state, k=self.position_r)
         #Resize the image if size is wrong
@@ -261,6 +267,7 @@ class DroneVisualLanding:
         @param file_path: the name and path of the video file
         @param mode: the file can be saved as 'gif' or 'mp4'
         """
+        if(len(self.position_list) <=1): return
         # Internal function used to plot animation
         def _animate(i):
             x = self.position_list[i][0]
