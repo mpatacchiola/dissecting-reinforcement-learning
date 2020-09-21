@@ -55,7 +55,7 @@ def init_and():
     #Define the transition matrix
     transition_matrix = np.array([[0.8, 0.1, 0.0, 0.1],
                                   [0.1, 0.8, 0.1, 0.0],
-                                  [0.0, 0.1, 0.8, 0.1],
+                                  [0.0, 0.1, 0.8, 0.1]]),
     env.setStateMatrix(state_matrix)
     env.setIndexMatrix(index_matrix)
     env.setRewardMatrix(reward_matrix)
