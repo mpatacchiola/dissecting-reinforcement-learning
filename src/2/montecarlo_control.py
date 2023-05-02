@@ -59,7 +59,8 @@ def get_return(state_list, gamma):
     counter = 0
     return_value = 0
     for visit in state_list:
-        reward = visit[2]
+        # (observation, action, reward ) = visit
+        _, _, reward = visit
         return_value += reward * np.power(gamma, counter)
         counter += 1
     return return_value
@@ -70,7 +71,8 @@ def update_policy(episode_list, policy_matrix, state_action_matrix):
     @return the updated policy
     '''
     for visit in episode_list:
-        observation = visit[0]
+        # (observation, action, reward ) = visit
+        observation, _, _ = visit
         col = observation[1] + (observation[0]*4)
         if(policy_matrix[observation[0], observation[1]] != -1):      
             policy_matrix[observation[0], observation[1]] = \
@@ -152,8 +154,7 @@ def main():
         #For each state stored in the episode list check if it
         #is the rist visit and then estimate the return.
         for visit in episode_list:
-            observation = visit[0]
-            action = visit[1]
+            observation, action, reward = visit
             col = int(observation[1] + (observation[0]*4))
             row = int(action)
             if(checkup_matrix[row, col] == 0):
